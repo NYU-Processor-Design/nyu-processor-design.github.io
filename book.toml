@@ -8,6 +8,8 @@ title = "NYU Processor Design Documentation"
 [output.html]
 default-theme = "ayu"
 curly-quotes = true
+git-repository-url = "https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/tree/main"
+edit-url-template = "https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/tree/main/{path}"
 
 [output.html.fold]
 enable = true

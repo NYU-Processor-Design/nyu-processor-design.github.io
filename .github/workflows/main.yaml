@@ -34,11 +34,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install mdBook
-        run: cargo install mdbook --no-default-features --features search
+      - name: Download mdBook
+        run: |
+          mkdir bin
+          curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.21/mdbook-v0.4.21-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
 
       - name: Build Docs
-        run: $HOME/.cargo/bin/mdbook build
+        run: bin/mdbook build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
