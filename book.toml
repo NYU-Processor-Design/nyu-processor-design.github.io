@@ -1,0 +1,14 @@
+[book]
+authors = ["Vito Gamberini"]
+language = "en"
+multilingual = false
+src = "src"
+title = "NYU Processor Design Documentation"
+
+[output.html]
+default-theme = "ayu"
+curly-quotes = true
+
+[output.html.fold]
+enable = true
+level = 0
