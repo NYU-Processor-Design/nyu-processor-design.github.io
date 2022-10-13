@@ -17,10 +17,9 @@ by the faculty advisors. New student decisions are made by the beginning of each
 semester. Students may apply to various VIP course options (i.e., VIP teams),
 then select one VIP team to participate on for three consecutive semesters.
 
-***For the Processor Design team in particular:*** Applicants should have
-completed CS-UY 2214 or ECE-UY 2204 or have equivalent experience with RTL
-design. Team participation assumes familiarity with Verilog and associated
-tooling.
+***For the Processor Design team:*** Applicants should have completed CS-UY 2214
+or ECE-UY 2204 or have equivalent experience with RTL design. Team participation
+assumes familiarity with Verilog and associated tooling.
 
 ## About VIP
 
@@ -51,3 +50,132 @@ intend to:
     significant benefit to faculty members' research programs
 
 ## Project Objectives
+
+This course operates as an engineering-focused team, research and learning
+objectives are achieved through _building_. Team members will be working
+collaboratively with industry-standard methodology and modern tooling to
+construct novel microprocessor designs. This VIP course coordinates with the
+NYU Tandon School of Engineering and the Purdue University SoCET team.
+
+The team has a special focus on modularity of design, toolchain implementation,
+continuous integration, testing and verification, test coverage reporting, and
+module packaging. Team members should expect to develop a familiarity with all
+of these areas prior to developing a specialization.
+
+## Learning Objectives
+
+The team seeks to attain the following outcomes for participants:
+
+  * an ability to identify, compartmentalize, and structure solutions to complex
+    problems in digital design using sets of modular components
+
+  * an ability to design and implement repeatable and robust toolchains and
+    workflows using industry-standard tooling
+
+  * an ability to collaborate effectively with team members and integrate
+    diverse, distributed work into a single cohesive solution
+
+  * an ability to independently research and consider possible solutions to a
+    problem space and present concise recommendations for evaluation
+
+## Project Structure
+
+This VIP team does not have designated sub-teams. A single team-wide meeting
+will be held weekly at a time determined by participant schedules.
+
+## Course Topics
+
+A short list of topics team members will become familiar with:
+
+  * System Verilog
+  * C/C++ for Verification
+  * Toolchain Automation
+  * Processor pipelining and pipeline stage implementation
+  * Caching
+  * Design flow tooling
+  * Elements of a PDK
+  * RISC-V ISA
+
+## Course Structure
+
+### Time
+
+Students attend weekly meetings and work outside of those meetings
+individually and/or with team members. The time commitment expected from each
+undergraduate student is commensurate with the level of variable credit
+enrollment:
+
+1 credit: 4 hours per week
+
+2 credits[^note1]: 8 hours per week
+
+3 credits[^note2]: 12 hours per week
+
+[^note1]: VIP Advisor pre-approval required.
+
+[^note2]: VIP Management pre-approval required.
+
+Graduate students enroll for 1.5 credits, commensurate with 50 hours over the
+semester.
+
+**Zero-credit enrollment:** Students may enroll in VIP for zero (0) credits on
+a case-by-case basis to address issues of enrollment limitations (e.g., credit
+limits). This enrollment option can only be used up to 2 times.
+
+
+### Weekly Meetings
+
+Each VIP team determines regular team and/or sub-team meeting times during which
+students discuss project updates, work on tasks, and plan upcoming objectives.
+Weekly meetings generally take place for 1 hour.
+
+Students are responsible for participating in their team and sub-team meetings.
+Contact the VIP Student Leadership and/or VIP Advisor prior to missing a meeting
+to be excused from attendance. If you miss any meeting, you are responsible for
+knowing what occurred in that meeting (typically by discussing it with a team
+member). An excused absence does not relieve you of that responsibility.
+
+### Communication
+
+Students are expected to communicate with team members during weekly meetings
+and through mid-week exchanges. Students are expected to respond to
+communications in an appropriate time frame and to communicate respectfully.
+Reach out to VIP team leadership with any issues concerning miscommunication.
+
+**The NYU Processor Design team** coordinates via Github issues, pull request
+comments, and our Discord.
+
+### VIP Notebook
+
+Every VIP student maintains documentation consisting of meeting notes, details
+about their work and progress, lists of responsibilities, tasks, and deadlines,
+reflections, etc.
+
+The notebook format for **the Processor Design team** is markdown documents
+submitted as pull requests to this repository. Feedback will be provided in the
+pull request, and timeliness is judged based on when a PR is submitted.
+
+Team members are expected to update their notebooks weekly. An accepted PR
+represents full credit for the purposes of grading.
+
+## Required Materials
+
+There are no required materials for this course. Introductory project
+information, training, and resources will be made available to students.
+
+## Grades
+
+Students are graded based on participation, contribution, and documentation.
+Attendance is expected at weekly meetings, and every student reports their
+individual contributions on a weekly basis through the VIP Notebook.
+
+|               Category                 | Breakdown |
+-----------------------------------------|-----------|
+|      Documentation (VIP Notebook)      |    30%    |
+|    Responsibilities & Contributions    |    30%    |
+|      Peer Evaluations & Attendance     |    30%    |
+| End of Semester Presentation or Report |    10%    |
+|               **Total**                |***100%*** |
+
+**Zero-credit enrollment:** Students enrolled in a zero-credit VIP course will
+receive a Pass (P) for 80% or higher.
