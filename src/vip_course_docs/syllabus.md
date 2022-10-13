@@ -1,5 +1,6 @@
 # Syllabus
-----------
+
+---
 
 ## Contact Information
 
