@@ -9,7 +9,7 @@
 - [Design Notebook Guide]()
   - [Your First Design Notebook](getting_started/notebooks/01_first_design.md)
   - [Getting Started With Git](getting_started/notebooks/02_git.md)
-  - [Setting Up a Github Account](getting_started/notebooks/03_setting_up_a_gh.md)
+  - [Working With Your Repo](getting_started/notebooks/03_dev_workflow.md)
   - [Your First Pull Request](getting_started/notebooks/04_first_pr.md)
 - [Onboarding Labs]()
   - [Week 1: CMake](getting_started/onboarding/01_cmake.md)
