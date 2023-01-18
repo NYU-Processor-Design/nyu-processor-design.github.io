@@ -78,7 +78,7 @@ project(week-one-lab VERSION 1.0.0)
 Here we have the project name and version number for our code. This isn't very
 significant yet, but it will be in the future.
 
-Now we're ready to make the magic happen, the third line of your CML will be:
+It's time to make the magic happen, the third line of your CML will be:
 
 ```cmake
 message("Hello World")
