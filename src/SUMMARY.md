@@ -4,7 +4,7 @@
 
 # VIP Course Documents
 - [Syllabus](vip_course_docs/syllabus.md)
-
+- [Project Membership](vip_course_docs/membership.md)
 # Getting Started
 - [Design Notebook Guide]()
   - [Your First Design Notebook](getting_started/notebooks/01_first_design.md)

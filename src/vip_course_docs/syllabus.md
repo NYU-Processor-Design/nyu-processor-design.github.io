@@ -159,6 +159,11 @@ pull request, and timeliness is judged based on when a PR is submitted.
 Team members are expected to update their notebooks weekly. An accepted PR
 represents full credit for the purposes of grading.
 
+It is not the intent that notebooks represent solely individual work. This is
+not a test, members' individual knowledge is not under consideration. Group
+efforts on labs, developing documentation, or achieving individual or team-wide
+objectives are all acceptable work for the purposes of the VIP design notebook.
+
 ## Required Materials
 
 There are no required materials for this course. Introductory project
@@ -172,10 +177,10 @@ individual contributions on a weekly basis through the VIP Notebook.
 
 |               Category                 | Breakdown |
 -----------------------------------------|-----------|
-|      Documentation (VIP Notebook)      |    30%    |
-|    Responsibilities & Contributions    |    30%    |
-|      Peer Evaluations & Attendance     |    30%    |
-| End of Semester Presentation or Report |    10%    |
+|      Documentation (VIP Notebook)      |    35%    |
+|    Responsibilities & Contributions    |    35%    |
+|              Attendance                |    10%    |
+| End of Semester Presentation or Report |    20%    |
 |               **Total**                |***100%*** |
 
 **Zero-credit enrollment:** Students enrolled in a zero-credit VIP course will

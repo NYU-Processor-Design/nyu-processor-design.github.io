@@ -51,6 +51,22 @@ For the purposes of your design notebook, the first step is going to be
 a Github account, there is no need to create a new one exclusively for the
 team.
 
+## Configuring `git`
+
+In any environment where need to use `git` you first need configure the
+program on your current account. You need to tell `git` your name:
+
+```
+git config --global user.name "Your Name"
+```
+
+And next you need to tell `git` an email address, this should typically be
+whatever email is associated with your GitHub account
+
+```
+git config --global user.email "your_email@example.com"
+```
+
 ## Setting up SSH Access
 
 `ssh` stands for "**s**ecure **sh**ell" and is a encrypted communication
