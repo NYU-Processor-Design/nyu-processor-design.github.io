@@ -1,4 +1,4 @@
-# Week 1: CMake, Toolchain, and Testing
+# Week 1: CMake and Toolchain
 
 ---
 

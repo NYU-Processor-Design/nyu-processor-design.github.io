@@ -2,20 +2,69 @@
 
 ## Purpose
 
-This is a crash course in basic System Verilog constructs. As some level of
-exposure to Verilog is a requirement for access to the team, this lab consists
-of a series of exercises that will ensure you've got the basics on lock.
+The layout of this lab is the same as the previous one, but the situation
+is reversed. Instead of having all the tests available and implemented already
+and filling in the SystemVerilog, the SystemVerilog is written and you will be
+implementing tests.
 
-If you find there is a construct or challenge you're unsure how to approach,
-seek guidance from the team. Asking questions is encouraged.
+Testing, in the hardware world we call it "design verification", is essential
+to ensuring that designs fufill their intent. The options for repairing hardware
+that has already been fabricated are limited.
 
+---
+
+## Background
+
+In the **Processor Design Team**, design verification tests are regular C++
+programs. If the program returns `0` from its `main` function, the test has
+passed, if the program returns something non-zero, the test has failed.
+
+The heart of a test is the model. The model is a simulation of the
+device-under-test (DUT), synthesized from the SystemVerilog files which describe
+it using a program known as `verilator`. You don't need to worry about invoking
+or using `verilator` directly, the toolchain does that for you.
+
+The model is a C++ object, the public members of this object are the port list
+present on the SystemVerilog module. For example a module with the following
+port list:
+
+```verilog
+module DUT(
+    input [7:0] alpha;
+    input [7:0] beta;
+
+    output [15:0] gamma;
+);
+```
+
+Will generate a model with the following public members:
+```cpp
+struct VDUT {
+  uint8_t alpha;
+  uint8_t beta;
+
+  uint16_t gamma;
+};
+```
+
+When changing inputs, the outputs of the model can be evaluated using the
+`.eval()` method. For example:
+
+```cpp
+  VDUT model;
+  model.alpha = 5;
+  model.beta = 8;
+  model.eval();
+
+  // model.gamma will change
+```
 ---
 
 ## Setup
 
-Fork the Lab Week 3 repo to your personal Github account and complete the
-exercises in that repo. (For design log purposes, this cloned repo will be the
-one you link to.)
+Fork the [Lab Week 3 repo](https://github.com/NYU-Processor-Design/onboarding-lab-3)
+to your personal Github account and complete the exercises in that repo. (For
+design log purposes, this cloned repo will be the one you link to.)
 
 The toolchain has already been setup for you for all the exercises. It uses
 techniques you have not been introduced to yet so don't be concerned if you
@@ -23,3 +72,30 @@ don't understand all of it. You can build the simulations using the techniques
 from the [Week 1 Onboarding Lab](01_cmake.md).
 
 ---
+
+## Exercise 1: Something Familiar
+
+Write a test that verifies the module implements the following behavior. Test
+all possible values of `a` and `b` for each operation.
+
+|    op    |      out
+-----------|---------------
+|     0    |     a ^ b
+|     1    |     a << b
+|     2    |     a % b
+|     3    |     ~(a & b)
+
+## Exercise 2: Reading Rainbow
+
+Being able to read code is as important as being able to write it. For this
+exercise, assume that the module is correct. This test is being written to
+ensure that any future changes to the module to not change its external
+behavior.
+
+Design a test that reasonably verifies the behavior of the Excercise2 module.
+Note that testing the entire space of possible states is likely not viable.
+
+**Make Note:** What testing strategy did you adopt for this Exercise2? What
+decisions did you have to make and how did you come up with your answers?
+
+## Exercise 3:
