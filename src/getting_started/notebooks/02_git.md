@@ -66,3 +66,47 @@ development environment. What follows is a description of how to generate this
 key pair and use it with the **Anubis** ProcDesign IDE environment, but
 **Github** [provides excellent instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
 for how to work through this process on a variety of platforms.
+
+The first thing to do is generate a public/private key pair, you can do this with
+the following command:
+
+```
+ssh-keygen -t ed25519 -C "your.email@nyu.edu"
+```
+
+The generator will ask the following questions:
+
+```
+Enter file in which to save the key (/home/anubis/.ssh/id_ed25519):
+```
+
+Hit enter, as we want to use the default location for this file
+
+The next question will be:
+
+```
+Enter passphrase (empty for no passphrase):
+```
+
+If you enter a passphrase, you will be required to enter it prior to performing
+most ssh operations. It's fine to leave this blank.
+
+Now we need to let various operating system components know about your new keys,
+so that `git` will be able to find them later. The way to do this is by using
+a command called `ssh-add`. Unfortunately, `ssh-add` doesn't have enough
+information to do its job by default. So we need to run a command to retrieve
+this information and add it to the local environment. If those words don't mean
+anything to you, don't worry, just run this command:
+
+```
+eval "$(ssh-agent -s)"
+```
+
+Finally we can add our new ssh keys with the command:
+
+```
+ssh-add ~/.ssh/id_ed25519
+```
+
+The last step is adding your SSH keys to Github, for which you should follow the
+[public Github documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
