@@ -14,6 +14,21 @@ What follows is generic guidance applicable to all of the Onboarding Labs
   on Anubis if you don't have a development machine that can run the required
   tooling.
 
+* For a personal computing environment, the required tools across all the labs
+  are the following:
+
+  * cmake
+
+  * verilator
+
+  * git
+
+  * curl
+
+  * zip, unzip
+
+  * tar
+
 * Labs are intended to be run and completed in their own directory/repository.
   If a lab requires you to clone an existing repository and work inside it,
   that will be noted in the instructions.
