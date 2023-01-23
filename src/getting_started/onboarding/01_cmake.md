@@ -212,10 +212,7 @@ You should now be able to build and run your modified hello world program
 
 * Why is it important to run `cmake` in its own directory?
 
-## Part 4: Exercise
-
-TBD
-
+---
 
 [^why]: You may wonder, "Why do I have to learn this before I've written any
 code?" In programming classes where you only had to run a compiler on a single
