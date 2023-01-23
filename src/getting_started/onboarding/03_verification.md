@@ -92,10 +92,44 @@ exercise, assume that the module is correct. This test is being written to
 ensure that any future changes to the module to not change its external
 behavior.
 
-Design a test that reasonably verifies the behavior of the Excercise2 module.
+Design a test that reasonably verifies the behavior of the Exercise2 module.
 Note that testing the entire space of possible states is likely not viable.
 
 **Make Note:** What testing strategy did you adopt for this Exercise2? What
 decisions did you have to make and how did you come up with your answers?
 
-## Exercise 3:
+## Exercise 3: A Verification in Many Parts
+
+The Exercise3 module follows the same schematic as in Lab 2:
+
+<img src="/images/mystery_diag.png" width="70%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+However, the mysteries have been changed. Mystery1 operates as follows:
+* If `a` is 0, then `d` is:
+
+| Bits  |  7:6 |  5:3   |  2:0
+|-------|------|--------|-------
+| Value | b'00 | b[2:0] | c[2:0]
+
+* If `a` is 1, then `d` is:
+
+| Bits  |  7:6 |  5:3   |  2:0
+|-------|------|--------|-------
+| Value | b'01 | c[2:0] | b[2:0]
+
+* If `a` is 2, then `d` is `b`
+
+* If `a` is 3, then `d` is `c`
+
+
+And Mystery2 operates according ot the following rules:
+
+* Clocked on negative clock edge
+
+* When `reset` is high, out is initialized to:
+
+| Bits  |  15:8 |  7:0
+|-------|-------|--------
+| Value |  b_in |  a_in
+
+## Exercise 4:

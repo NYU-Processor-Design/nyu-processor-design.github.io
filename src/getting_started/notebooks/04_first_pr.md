@@ -53,3 +53,14 @@ would like to branch from:
 <img src="/images/git/branch.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
 
 ## Publishing Changes
+
+After you have added your commits to the branch, you can publish the results to
+Github with the following commands:
+
+```
+git push [remote_name] [branch_name]
+```
+
+This is equivalent to the GitLens "Publish Branch" button:
+
+<img src="/images/git/publish.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
