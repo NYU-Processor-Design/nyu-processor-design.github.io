@@ -87,3 +87,32 @@ generated for the commit. In the comments field, include any information
 that might be pertinent but isn't included in the commit itself.
 
 <img src="/images/git/gh_pr04.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+## Discarding the Branch
+
+Once your PR has been merged into the "upstream" repository, it is safe to
+delete the branch you did the work on.
+
+You can do this with:
+
+```
+git checkout main
+git branch -D branch_name
+git push origin -D branch_name
+```
+
+The first command switches off of the development branch, because you cannot
+delete a branch that is currently checked-out. The second command deletes the
+locally copy of the branch, and the third command deletes the remote copy.
+
+The deletions are equivalent to right clicking and selecting "Delete branch"
+in GitLens.
+
+
+## Integrating Upstream Changes
+
+You can now pull the upstream changes into your repo, this can be done with
+
+```
+git pull [remote] [branch]
+```
