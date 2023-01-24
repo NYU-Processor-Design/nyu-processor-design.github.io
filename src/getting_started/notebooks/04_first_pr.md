@@ -64,3 +64,26 @@ git push [remote_name] [branch_name]
 This is equivalent to the GitLens "Publish Branch" button:
 
 <img src="/images/git/publish.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+## Making a Pull Request
+
+To make a pull request, navigate to the "Pull requests" tab of your repo:
+
+<img src="/images/git/gh_pr01.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+And click "New pull request":
+
+<img src="/images/git/gh_pr02.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+Use the drop-down menu on the right to select the correct branch you would like
+to pull from:
+
+<img src="/images/git/gh_pr03.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+Now create the pull request.
+
+For the following dialogue, it's fine the leave the title as whatever is
+generated for the commit. In the comments field, include any information
+that might be pertinent but isn't included in the commit itself.
+
+<img src="/images/git/gh_pr04.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
