@@ -8,7 +8,7 @@ and filling in the SystemVerilog, the SystemVerilog is written and you will be
 implementing tests.
 
 Testing, in the hardware world we call it "design verification", is essential
-to ensuring that designs fufill their intent. The options for repairing hardware
+to ensuring that designs fulfill their intent. The options for repairing hardware
 that has already been fabricated are limited.
 
 ---
@@ -132,4 +132,31 @@ And Mystery2 operates according ot the following rules:
 |-------|-------|--------
 | Value |  b_in |  a_in
 
+* When `reset` is low, the output cycles through the following states:
+
+| State | Value
+| ----- | -----
+|   0   |  {a_in, out[7:0]}
+|   1   |  {out[15:8], b_in}
+|   2   |  {out[7:0], out[15:8]}
+|   3   |  {out[3:0], out[7:4], out[11:8], out[15:12]}
+|   4   |  {15'b0, ^out}
+
+Write a test that reasonably verifies the behavior of the module.
+
 ## Exercise 4:
+
+The Exercise4 module has the following behavior:
+
+|    cs    |  sel  |   out
+-----------|-------|-----------
+|     0    |   X   |    0
+|     1    |   0   |  alpha
+|     1    |   1   |   beta
+|     1    |   2   |  gamma
+|     1    |   3   |  alpha & (beta | gamma)
+
+Write a test that reasonably verifies the behavior of the module.
+
+**Make Note**: How does testing a Don't Care work? What must be done to ensure
+the input truly has no effect on output?
