@@ -24,4 +24,5 @@
 
 # Design Notebooks
 - [Spring 2023]()
+  - [Uma Nachiappan](design_notebooks/2023spring/un2021.md)
   - [Vito Gamberini](design_notebooks/2023spring/nvg7278.md)
