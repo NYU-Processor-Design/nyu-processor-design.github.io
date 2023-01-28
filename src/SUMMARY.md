@@ -24,5 +24,11 @@
 
 # Design Notebooks
 - [Spring 2023]()
-  - [Uma Nachiappan](design_notebooks/2023spring/un2021.md)
+  - [Krzystof Chciuk](design_notebooks/2023spring/kc3977.md)
+  - [Kevin Yap](design_notebooks/2023spring/kcy4870.md)
+  - [Michael Lippe](design_notebooks/2023spring/ml7238.md)
   - [Vito Gamberini](design_notebooks/2023spring/nvg7278.md)
+  - [Rishyak Panchal](design_notebooks/2023spring/rp3193.md)
+  - [Swarnashri Chandrashekar](design_notebooks/2023spring/sc8781.md)
+  - [Sean Doyle](design_notebooks/2023spring/spd7416.md)
+  - [Uma Nachiappan](design_notebooks/2023spring/un2021.md)
