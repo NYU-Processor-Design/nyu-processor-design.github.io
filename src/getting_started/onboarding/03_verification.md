@@ -89,7 +89,7 @@ all possible values of `a` and `b` for each operation.
 
 Being able to read code is as important as being able to write it. For this
 exercise, assume that the module is correct. This test is being written to
-ensure that any future changes to the module to not change its external
+ensure that any future changes to the module do not change its external
 behavior.
 
 Design a test that reasonably verifies the behavior of the Exercise2 module.
