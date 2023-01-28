@@ -35,7 +35,7 @@ Each week, students are expected to make a pull request against this repository
 to update their design notebook file for the semester.
 
 If you are unfamiliar with markdown or wish to revisit its nuances, refer to
-this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+this [markdown cheatsheet](https://commonmark.org/help/).
 
 ## Content
 
