@@ -24,6 +24,7 @@
 
 # Design Notebooks
 - [Spring 2023](design_notebooks/2023spring/00_toc.md)
+  - [Aniket Kriplani](design_notebooks/2023spring/ak9100.md)
   - [Krzystof Chciuk](design_notebooks/2023spring/kc3977.md)
   - [Kevin Yap](design_notebooks/2023spring/kcy4870.md)
   - [Michael Lippe](design_notebooks/2023spring/ml7238.md)

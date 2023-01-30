@@ -2,6 +2,8 @@
 
 ---
 
+  * [Aniket Kriplani](ak9100.md)
+
   * [Krzystof Chciuk](kc3977.md)
 
   * [Kevin Yap](kcy4870.md)
