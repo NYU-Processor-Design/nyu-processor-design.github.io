@@ -16,6 +16,8 @@
 
   * [Swarnashri Chandrashekar](sc8781.md)
 
+  * [Siddharth Kandpal](sk8944.md)
+
   * [Sean Doyle](spd7416.md)
 
   * [Uma Nachiappan](un2021.md)

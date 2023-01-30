@@ -31,5 +31,6 @@
   - [Vito Gamberini](design_notebooks/2023spring/nvg7278.md)
   - [Rishyak Panchal](design_notebooks/2023spring/rp3193.md)
   - [Swarnashri Chandrashekar](design_notebooks/2023spring/sc8781.md)
+  - [Siddharth Kandpal](design_notebooks/2023spring/sk8944.md)
   - [Sean Doyle](design_notebooks/2023spring/spd7416.md)
   - [Uma Nachiappan](design_notebooks/2023spring/un2021.md)
