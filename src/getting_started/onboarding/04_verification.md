@@ -154,7 +154,7 @@ The Exercise4 module has the following behavior:
 |     1    |   0   |  alpha
 |     1    |   1   |   beta
 |     1    |   2   |  gamma
-|     1    |   3   |  alpha & (beta | gamma)
+|     1    |   3   |  alpha & (beta \| gamma)
 
 Write a test that reasonably verifies the behavior of the module.
 
