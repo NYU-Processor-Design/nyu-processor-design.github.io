@@ -1,2 +1,8 @@
 book
+
+# Text editor configs
 .vscode
+.idea
+
+# OS Specific files
+.DS_Store
