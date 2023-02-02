@@ -69,7 +69,7 @@ design log purposes, this cloned repo will be the one you link to.)
 The toolchain has already been setup for you for all the exercises. It uses
 techniques you have not been introduced to yet so don't be concerned if you
 don't understand all of it. You can build the simulations using the techniques
-from the [Week 1 Onboarding Lab](01_cmake.md).
+from the [Week 1 Onboarding Lab](02_cmake.md).
 
 ---
 
@@ -89,7 +89,7 @@ all possible values of `a` and `b` for each operation.
 
 Being able to read code is as important as being able to write it. For this
 exercise, assume that the module is correct. This test is being written to
-ensure that any future changes to the module to not change its external
+ensure that any future changes to the module do not change its external
 behavior.
 
 Design a test that reasonably verifies the behavior of the Exercise2 module.
@@ -154,7 +154,7 @@ The Exercise4 module has the following behavior:
 |     1    |   0   |  alpha
 |     1    |   1   |   beta
 |     1    |   2   |  gamma
-|     1    |   3   |  alpha & (beta | gamma)
+|     1    |   3   |  alpha & (beta \| gamma)
 
 Write a test that reasonably verifies the behavior of the module.
 

@@ -4,7 +4,7 @@
 
 ## Before You Begin
 
-Take some time to review the [Lab Guidance](00_guidance.md) before beginning on
+Take some time to review the [Lab Guidance](01_guidance.md) before beginning on
 these labs. If you're using the labs to populate your design notebook entries,
 failure to follow the lab guidance could adversely affect your
 ***Documentation***  grade.

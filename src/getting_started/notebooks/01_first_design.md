@@ -34,6 +34,9 @@ they are enrolled for (for example, `design_notebooks/2023spring`).
 Each week, students are expected to make a pull request against this repository
 to update their design notebook file for the semester.
 
+If you are unfamiliar with markdown or wish to revisit its nuances, refer to
+this [markdown cheatsheet](https://commonmark.org/help/).
+
 ## Content
 
 A typical entry in your design notebook should be a list of items that represent
