@@ -80,6 +80,8 @@ Congratulations! You have successfully installed Homebrew! If you want to explor
 
 # Installing Dependencies
 
+The method to install package with homebrew is via the command **brew install *packagenamehere***.
+
 ## Installing cmake
 
 To install cmake, run the following command in the Terminal
