@@ -4,8 +4,6 @@
 
 1. [Lab Guidance](01_guidance.md)
 
-1a. [Homebrew Installation (Mac)](01a_homebrew.md)
-
 2. [CMake and Toolchain](02_cmake.md)
 
 3. [System Verilog](03_sv.md)
