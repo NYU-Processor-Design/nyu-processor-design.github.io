@@ -122,7 +122,7 @@ However, the mysteries have been changed. Mystery1 operates as follows:
 * If `a` is 3, then `d` is `c`
 
 
-And Mystery2 operates according ot the following rules:
+And Mystery2 operates according to the following rules:
 
 * Clocked on negative clock edge
 
