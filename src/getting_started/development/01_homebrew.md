@@ -1,5 +1,8 @@
 ﻿# Mac Homebrew Installation Guide
+
+
 This guide will show you how to install the [Homebrew Package Manager](https://brew.sh/) on Mac and use it to install the required dependencies for the onboarding labs. 
+---
 
 # Installing Homebrew
 Open Terminal and run the following command:
@@ -83,6 +86,7 @@ Congratulations! You have successfully installed Homebrew! If you want to explor
 The installation command for Homebrew is **brew install *package name here***. This will search for the specified package and install it in the directory /usr/local/Cellar/ by default. It will then make links to the package at /usr/local/opt/ and /usr/local/bin/ for the packages can be used in executable files.
 
 If you want to get information about a specific installed package you can use the **brew info *package name here*** command.
+---
 
 ## Installing cmake
 
