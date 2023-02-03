@@ -72,5 +72,3 @@ the project and develop valuable technical skills.
 * Michael Lippe
 
 * Kevin Yap
-
-* Golden Path for second entry documentation
