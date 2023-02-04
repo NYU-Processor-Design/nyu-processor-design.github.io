@@ -12,25 +12,37 @@ team requirements.
 
 **Team Lead:** Vito Gamberini
 
-**Project Manager:**
+**Project Manager:** Krzystof Chciuk
 
 ## Czars:
 
 Czars own their respective parts of the technology stack. They have complete
 discretion to make technical decisions, review change requests, set iteration
-objects, and develop materials directly related to their objectives.
+goals, and develop materials directly related to their objectives.
 
 **CPU:**
 
+RISC-V core design
+
 **Memory:**
+
+Memory controller and bus design, and memory compiler integration
 
 **AMBA/Peripheral:**
 
+Everything AMBA-related, and essential peripherals
+
 **Simulator:**
+
+Verification simulator development and integration
 
 **Software:**
 
+RISC-V software and toolchain development
+
 **Onboarding/Documentation:**
+
+Labs, project documentation, and outreach
 
 ## Active Members:
 
@@ -44,8 +56,6 @@ the project and develop valuable technical skills.
 * Rishyak Panchal
 
 ### VIP
-
-* Krzystof Chciuk
 
 * Aniket Kriplani
 

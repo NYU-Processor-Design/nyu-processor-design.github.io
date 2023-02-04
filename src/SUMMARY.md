@@ -16,11 +16,13 @@
   - [Week 1: CMake and Toolchain](getting_started/onboarding/02_cmake.md)
   - [Week 2: System Verilog](getting_started/onboarding/03_sv.md)
   - [Week 3: Verification](getting_started/onboarding/04_verification.md)
-  - [Week 4: Advanced Verification](getting_started/onboarding/05_verification2.md)
+  - [Week 4: Verification Toolchain](getting_started/onboarding/05_verification2.md)
   - [Week 5: Advanced System Verilog](getting_started/onboarding/06_advanced_sv.md)
   - [Week 6: Packaging and Dependency Management](getting_started/onboarding/07_dependencies.md)
   - [Week 7: Processor Design](getting_started/onboarding/08_cpu.md)
   - [Week 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
+- [Development Environment](getting_started/development/00_toc.md)
+  - [Mac: Homebrew Installation](getting_started/development/01_homebrew.md)
 
 # Design Notebooks
 - [Spring 2023](design_notebooks/2023spring/00_toc.md)
