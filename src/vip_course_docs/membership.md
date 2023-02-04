@@ -12,7 +12,7 @@ team requirements.
 
 **Team Lead:** Vito Gamberini
 
-**Project Manager:** Krzystof Chciuk
+**Project Manager:** Krzysztof Chciuk
 
 ## Czars:
 
