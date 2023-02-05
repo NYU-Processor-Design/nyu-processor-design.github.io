@@ -1,5 +1,7 @@
 # Week 3: Verification
 
+---
+
 ## Purpose
 
 The layout of this lab is the same as the previous one, but the situation
