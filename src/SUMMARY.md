@@ -28,7 +28,7 @@
 - [Spring 2023](design_notebooks/2023spring/00_toc.md)
   - [Aniket Kriplani](design_notebooks/2023spring/ak9100.md)
   - [Gabrielle Lim](design_notebooks/2023spring/gil2011.md)
-  - [Krzystof Chciuk](design_notebooks/2023spring/kc3977.md)
+  - [Krzysztof Chciuk](design_notebooks/2023spring/kc3977.md)
   - [Kevin Yap](design_notebooks/2023spring/kcy4870.md)
   - [Michael Lippe](design_notebooks/2023spring/ml7238.md)
   - [Vito Gamberini](design_notebooks/2023spring/nvg7278.md)
