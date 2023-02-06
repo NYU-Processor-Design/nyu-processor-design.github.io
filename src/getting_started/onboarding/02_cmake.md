@@ -35,8 +35,7 @@ cmake [directory]
 ```
 
 Where `[directory]` is a location on the filesystem that contains a file named
-`CMakeLists.txt`. This file is often referred as an acronym, "CML", and we will
-do so in these lab instructions as well.
+`CMakeLists.txt`. This file is often referred to as an acronym, "CML", and we will do so in these lab instructions as well.
 
 We will start by creating an empty `CMakeLists.txt` file in the lab directory.
 Before we put any commands into the file, we need to know what version of
@@ -48,7 +47,7 @@ cmake --version
 
 **Make Note:** What version of `cmake` is running in your environment?
 
-The `cmake` version number is split into three parts, seperated by periods. The
+The `cmake` version number is split into three parts, separated by periods. The
 first is called the _major_ version, the second the _minor_ version, and the
 third is called the _patch_ number. These make up a system known as
 [semantic versioning](https://semver.org/) which we will discuss more in a later
@@ -65,7 +64,7 @@ In this line of code, `[major]` and `[minor]` should be the major and minor
 version number you learned from the earlier command. As you might suspect,
 `cmake_minimum_required` is a cmake command which will ensure the `cmake` tool
 running the file is _at least_ of a minimum version. Unless you're specifically
-testing or making certain your CML runs on older `cmake` versions, its best to
+testing or making certain your CML runs on older `cmake` versions, it's best to
 set this to the version of `cmake` you're currently using.
 
 The next line of code isn't strictly necessary for `"Hello World"`, but you will
@@ -98,7 +97,7 @@ our `"Hello World"`!
 The astute student will notice that our `build` directory is now filled with
 random crap. This is, in fact, why we created the `build` directory. In the
 future, we're always going to want to run `cmake` in its own directory for
-this reason, so that the generated files don't polute our source code folder.
+this reason, so that the generated files don't pollute our source code folder.
 
 But what are all these files? What purpose do they serve? Before we answer
 that question, let's try to build an actual program with `cmake`. First,
@@ -208,7 +207,7 @@ You should now be able to build and run your modified hello world program
 * The paths used by `target_sources` and `target_include_directories` are
   _relative_, not absolute. What file or folder are they _relative to_?
 
-* What some differences between `cmake` and `ninja`?
+* What are some differences between `cmake` and `ninja`?
 
 * Why is it important to run `cmake` in its own directory?
 

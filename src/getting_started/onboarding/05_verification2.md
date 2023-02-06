@@ -43,7 +43,7 @@ not yet written. We will need to add it ourselves.
 
 A **registry** is a collection of information about **packages**, where packages
 are the source code files (System Verilog, C++, or even cmake files) that we wish
-to  use in our project. We keep track of the registries we're using in a given
+to use in our project. We keep track of the registries we're using in a given
 project with the `vcpkg-configuration.json` file.
 
 If you look at the `vcpkg-configuration.json` file in the Lab 4 repo, you will
@@ -63,8 +63,7 @@ find something that looks like the following:
 This is a registry listing, this json file tells `vcpkg` where to look for
 packages. In this case, the only registry listed is the `default-registry`,
 which is where `vcpkg` will search if a requested package is not listed for
-any other registry. Here the `default-registry` is pointed at a git repo managed
-by Microsoft, which has many useful packages in it. The `registries` list, which
+any other registry. Here the `default-registry` is pointed at a git repo managed by Microsoft, which has many useful packages in it. The `registries` list, which
 would contain all other registries we wish to use, is empty.
 
 We will need to add a registry to the registry list. The required fields for a
@@ -248,7 +247,7 @@ We're going to write our testing commands inside the `dv` directory (`dv`
 stands for _**d**esign **v**erification_), so add a CML to the `dv` directory.
 
 Inside the top level CML ("top level" means the original CML, in the root
-diretory of the repository), add a conditional that checks `NYU_BUILD_TEST` and
+directory of the repository), add a conditional that checks `NYU_BUILD_TEST` and
 inside that conditional add the following lines:
 
 ```cmake
