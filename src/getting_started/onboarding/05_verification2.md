@@ -175,7 +175,7 @@ Next we need to create a library. This works just like creating an executable
 from Lab 1, except the command is `add_library()` instead of `add_executable()`.
 
 We're actually going to create a special kind of library called an ***interface
-library***. This differs slightly from a "normal" library, because an interface
+library***. This differs slightly from a "normal" library because an interface
 library can consist of code and files that aren't compiled immediately.
 
 Our System Verilog files cannot be compiled directly, so they're a good fit for
@@ -188,7 +188,7 @@ add_library(lab4 INTERFACE)
 
 ## Subdirectories and `nyu_` Commands
 
-In the same way we split up source code into multiple files to keep it
+In the same way that we split up source code into multiple files to keep it
 organized, we often split CMLs into multiple files for the same reason.
 
 One way to do this is the `add_subdirectory` command, which will search a

@@ -13,16 +13,16 @@ failure to follow the lab guidance could adversely affect your
 
 ## Purpose
 
-In both hardware and software development we use a variety of tools to achieve
+In both hardware and software development, we use a variety of tools to achieve
 our goals, tools such as compilers, linkers, simulators, etc. These tools can
 be quite complex, have non-trivial inter-dependencies, and the overall process
 of invoking all the necessary tools to build the final product may have many
 steps.
 
-For projects of sufficient complexity it is rarely feasible and never desirable
+For projects of sufficient complexity, it is rarely feasible and never desirable
 to run all the necessary tools by hand. Instead, we write programs to run the
 tools for us. These programs are collectively referred to as the
-***toolchain***. In this lab you will learn to work with the major toolchain
+***toolchain***. In this lab, you will learn to work with the major toolchain
 program used by the **Processor Design Team**, a tool called `cmake`.[^why]
 
 ## Part 1: CMake Hello World
@@ -104,7 +104,7 @@ that question, let's try to build an actual program with `cmake`. First,
 write a Hello World program in C++ and save it as `hello.cpp` at the top
 level of the lab repository (the same folder which holds the CML).
 
-Next we're going to tell `cmake` we would like to build a program, using the
+Next, we're going to tell `cmake` we would like to build a program, using the
 following two lines of code. You can remove your `message()` command from the
 CML and replace it with:
 
@@ -168,7 +168,7 @@ only as a target for other programs like `cmake`.
 Now that we have basic `cmake` usage down, there's only a little more left to
 talk about before you're ready to strike out on your own.
 
-Let's create a more typical file structure, we're going to have a `src`
+Let's create a more typical file structure, we're going to have an `src`
 directory that holds C++ implementation files, and an `include` directory
 that holds C++ header files. We're also going to create two new files,
 `name.cpp` and `name.hpp`. The final file structure should look like this:
@@ -194,7 +194,7 @@ target_sources(hello_world PRIVATE src/hello.cpp)
 target_sources(hello_world PRIVATE src/name.cpp)
 ```
 
-Header files do not need to be added directly, instead we just need to inform
+Header files do not need to be added directly, instead, we just need to inform
 the build system what directories to search for them in:
 
 ```cmake
