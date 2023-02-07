@@ -47,7 +47,7 @@ single command:
 git switch -c branch_name
 ```
 
-The same behavior can be found in GitLens by right clicking on a branch you
+The same behavior can be found in Source Control by right clicking on a branch you
 would like to branch from:
 
 <img src="/images/git/branch.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
@@ -61,7 +61,7 @@ Github with the following commands:
 git push [remote_name] [branch_name]
 ```
 
-This is equivalent to the GitLens "Publish Branch" button:
+This is equivalent to the Source Control "Publish Branch" button:
 
 <img src="/images/git/publish.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
 
@@ -106,7 +106,7 @@ delete a branch that is currently checked-out. The second command deletes the
 local copy of the branch, and the third command deletes the remote copy.
 
 The deletions are equivalent to right clicking and selecting "Delete branch"
-in GitLens.
+in Source Control.
 
 
 ## Integrating Upstream Changes
