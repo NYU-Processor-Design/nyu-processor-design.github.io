@@ -8,7 +8,7 @@ While some developers prefer to use `git` purely from the command line, others
 enjoy using the interface built in to their IDE. This is purely a
 preference-based decision. In this section, we'll demonstrate how do work
 through some common `git` operations using both the command line, and how do to
-the equivalent operation using the *GitLens* plugin for VSCode and Anubis.
+the equivalent operation using the Source Control tab on VSCode and Anubis. Note that most of these features are provided by the *GitLens* plugin for VSCode and Anubis. 
 
 There is far, far more to `git` than could be productively covered here. It is
 highly recommended that you seek guidance from
@@ -23,7 +23,7 @@ Inside a new empty folder, you can create a new `git` repo using the command:
 git init
 ```
 
-This is equivalent to using the "Initialize Repository" button in the GitLens
+This is equivalent to using the "Initialize Repository" button in the Source Control
 tab:
 
 <img src="/images/git/init.webp" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
@@ -50,7 +50,7 @@ Where the `.` is a Unix filesystem convention for refering to the current
 folder. This command tells `git` to add all files that have been added or
 changed to "staging".
 
-The equivalent in the GitLens tab is to use the plus and minus signs to move
+The equivalent in the Source Control tab is to use the plus and minus signs to move
 files in and out of "staging":
 
 <img src="/images/git/staging.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
@@ -81,7 +81,7 @@ git commit
 is saved and the editor is exited, `git` will open that file and read the
 commit message.
 
-The equivalent in the GitLens tab is the commit box:
+The equivalent in the Source Control tab is the commit box:
 
 <img src="/images/git/commit.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
 
@@ -94,6 +94,6 @@ remotes using the following command:
 git push
 ```
 
-This is _somewhat_ equivalent to the GitLens operation of "syncing"
+This is _somewhat_ equivalent to the Source Control operation of "syncing"
 
 <img src="/images/git/sync.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
