@@ -34,7 +34,8 @@ very important to hardware development, these utilities will come in handy. The
 
 ## Setup
 
-Fork the Lab Week 4 repo to your personal Github account. This repo features the
+Fork the [Lab Week 4 repo](https://github.com/NYU-Processor-Design/onboarding-lab-4) 
+to your personal Github account. This repo features the
 same modules as [Lab 3](04_verification.md), but you will be converting your
 tests to use the catch2 framework. In addition, much of the toolchain code is
 not yet written. We will need to add it ourselves.
