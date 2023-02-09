@@ -34,7 +34,7 @@ very important to hardware development, these utilities will come in handy. The
 
 ## Setup
 
-Fork the [Lab Week 4 repo](https://github.com/NYU-Processor-Design/onboarding-lab-4) 
+Fork the [Lab Week 4 repo](https://github.com/NYU-Processor-Design/onboarding-lab-4)
 to your personal Github account. This repo features the
 same modules as [Lab 3](04_verification.md), but you will be converting your
 tests to use the catch2 framework. In addition, much of the toolchain code is
@@ -259,6 +259,14 @@ inside that conditional add the following lines:
 The `add_subdirectory()` command should now be familiar. The `enable_testing()`
 command tells `cmake` that we want it to generate files necessary to
 automatically run tests for us.
+
+When running `cmake`, we'll need to turn this conditional on. To set the
+`NYU_BUILD_TESTS` variable when running `cmake`, we'll use the following command
+(assuming we're running `cmake` from inside a build directory):
+
+```
+cmake -DNYU_BUILD_TESTS=TRUE ..
+```
 
 ## The Test Executable
 
