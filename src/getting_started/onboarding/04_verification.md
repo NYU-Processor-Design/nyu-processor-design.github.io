@@ -66,9 +66,11 @@ When changing inputs, the outputs of the model can be evaluated using the
 
 Fork the [Lab Week 3 repo](https://github.com/NYU-Processor-Design/onboarding-lab-3)
 to your personal Github account and complete the exercises in that repo. (For
-design log purposes, this cloned repo will be the one you link to.)
+design log purposes, this cloned repo will be the one you link to.) Write your
+C++ test bench code in the C++ source code files located in the `dv` folder
+of the repo.
 
-The toolchain has already been set up for you for all the exercises. It uses
+The toolchain has already been setup for you for all the exercises. It uses
 techniques you have not been introduced to yet so don't be concerned if you
 don't understand all of it. You can build the simulations using the techniques
 from the [Week 1 Onboarding Lab](02_cmake.md).
