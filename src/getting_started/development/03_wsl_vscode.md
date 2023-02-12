@@ -1,4 +1,7 @@
 # Windows Subsystem for Linux (WSL) Installation Guide
+
+---
+
 The [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about)
 (WSL) is a type 1 hypervisor[^hypervisor] developed by Microsoft to allow
 developers to run Linux environments directly on Windows, without the drawbacks of type 2 hypervisors[^hypervisor] such as virtual machines, or, the
@@ -7,6 +10,8 @@ hassles of dual-boot setups.
 This guide will show you how to install the Windows Subsystem for Linux (WSL) 
 on Windows and use it to install the required dependencies for the **NYU 
 Processor Design Team**.
+
+---
 
 ## Contents
 - [Installing WSL](#installing-wsl)
@@ -21,6 +26,7 @@ Processor Design Team**.
   - [Changing VSCode's Default Terminal](#changing-vscodes-default-terminal)
 - [Further Reading](#further-reading)
 
+---
 
 ## Installing WSL
 
@@ -46,6 +52,8 @@ Processor Design Team**.
   will be required to run `sudo` commands
   - `sudo` stands for "Super User Do"
 
+---
+
 ## Using VSCode with WSL
 - Install [VSCode](https://code.visualstudio.com/) in your native Windows
   environment first.
@@ -54,19 +62,21 @@ Processor Design Team**.
   extension using the **Extensions** tab on the left tool panel
 
 - Now, VSCode can be run in the WSL environment by doing one of the following:
-  1. clicking on the **"Remote Window"** button at the bottom left of your 
+  1. Clicking on the **"Remote Window"** button at the bottom left of your 
      VSCode window and clicking **"New WSL Window"**
 <img src="/images/wsl/code1.png" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
-  1. pressing <kbd>F1</kbd> or <kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
+  2. Pressing <kbd>F1</kbd> or <kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
      to open the command palette and selecting ```WSL: New WSL Window```
 
+---
+
 ## Installing Dependencies (Ubuntu)
-- The installation command for Linux is
+- The installation command for Ubuntu is
   ```console
   sudo apt install <package name>
   ```
   - This will search for the specified package in the APT registry
-  and install it in your system.
+    and install it in your system.
   - You can list multiple package names in one command, for example:
     ```console
     sudo apt install cmake verilator clang-format
@@ -101,6 +111,8 @@ sudo apt install git
 - Then follow the [Getting Started With Git](../notebooks/02_git.md) tutorial
   to configure git
 
+---
+
 ## Optional: Using Zsh
 - Ubuntu's default shell is the Bourne-again shell (Bash)
 
@@ -109,7 +121,7 @@ sudo apt install git
 - Zsh includes more features and is the default shell on other popular Linux
   distros such as Arch Linux
 
-- To replace Bash as Ubuntu's default shell, install zsh:
+- To replace Bash as Ubuntu's default shell, first install zsh:
   ```console
   sudo apt install zsh
   ```
@@ -135,7 +147,7 @@ sudo apt install git
   for Zsh terminals
 
 - [Oh My Zsh](https://ohmyz.sh/) is the most popular Zsh theme framework
-  - Sidetrack: [Fun story](https://medium.com/free-code-camp/d-oh-my-zsh-af99ca54212c) 
+  - **Sidetrack:** [Fun story](https://medium.com/free-code-camp/d-oh-my-zsh-af99ca54212c) 
     about the ideation of Oh my Zsh, written by the creator, Robby Russel
 
 - Not only does it make Zsh much more pleasant to look at, it also provides
@@ -162,6 +174,8 @@ sudo apt install git
 
 - Now every time you open a terminal in WSL, VSCode will open a zsh terminal
 
+---
+
 ## Further Reading
 - Microsoft's [excellent documentation](https://learn.microsoft.com/en-us/windows/wsl/)
   for WSL
@@ -172,5 +186,6 @@ sudo apt install git
 - Ubuntu's [documentation](https://ubuntu.com/wsl) about Ubuntu on WSL
 
 ---
+
 [^hypervisor]: A [hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html?resource=cat-1299087558#cat-1299087558) 
 is software that runs and monitors virtual machines   
