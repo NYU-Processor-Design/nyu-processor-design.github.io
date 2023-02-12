@@ -1,4 +1,7 @@
 # VirtualBox Guide
+
+---
+
 VirtualBox (VBox) is a popular hypervisor[^hypervisor] for x86
 virtualisation. It allows you to create **virtual machines**, which are
 effectively emulations of computers on your computer. This allows you 
@@ -14,18 +17,22 @@ Design Team**.
 
 This guide will help you use the provided VM configuration with VBox.
 
+---
+
 ## Contents
 - [Minimum Requirements](#minimum-requirements)
 - [Virtual Machine Information](#virtual-machine-information)
   - [Specifications](#specifications)
 - [Downloading VirtualBox](#downloading-virtualbox)
-- [Download the VM](#download-the-vm)
+- [Downloading the VM](#downloading-the-vm)
 - [Importing the VM](#importing-the-vm)
 - [Starting the VM](#starting-the-vm)
 - [Logging In](#logging-in)
 - [Homescreen](#homescreen)
 - [Exploring your VM and Tips](#exploring-your-vm-and-tips)
 - [Configuring your VM](#configuring-your-vm)
+
+---
 
 ## Minimum Requirements
 - **CPU:** Any reasonably powerful 64-bit x86 processor  
@@ -48,6 +55,8 @@ immediately and do not need a VM, but nobody will stop you if
 you wish to use one regardless. Check the [Lab Guidance](../onboarding/01_guidance.md) 
 page for what you need to have. Optionally, macOS users are
 encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
+
+---
 
 ## Virtual Machine Information
 - The provided VM is set up for VirtualBox >7.0.0, which means it is
@@ -73,12 +82,14 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
 **Note:** You can edit these later to your desire if your computer has more
           resources to allocate to the VM.
 
+---
+
 ## Downloading VirtualBox
 1. Go to [virtualbox.org](https://www.virtualbox.org)
 
 2. Download the latest version of VirtualBox
 
-## Download the VM
+## Downloading the VM
 1. Go [here](https://drive.google.com/drive/folders/1vzB0ra_1gFrapqpwCEHLpuZI6Ekn0mpw?usp=share_link)
 
 2. Download the `.ova` file
@@ -130,6 +141,8 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
   - Terminal
   - Recycle Bin
 
+---
+
 ## Exploring your VM and Tips
 - Now you have a Linux VM to play around with
 
@@ -171,6 +184,8 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
   whether to keep the machine frozen in its current state or
   shut down completely; you can also use the power options in Ubuntu
 
+---
+
 ## Configuring your VM
 - This VM was created for the average computer one may have
 
@@ -196,9 +211,13 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
   in no time
 
 ---
+
 [^hypervisor]: A [hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html?resource=cat-1299087558#cat-1299087558) 
 is software that runs and monitors virtual machines   
+
 [^lts]: LTS stands for Long Term Support   
+
 [^appliance]: The file contains everything you need to begin working,
 hence the size   
+
 [^canon]: The company that develops and maintains Ubuntu   
