@@ -1,10 +1,15 @@
 ﻿# Homebrew Installation Guide for macOS
+
+---
+
 [Homebrew](https://brew.sh/) is a free and open-source software package management system
 for macOS. 
 
 This guide will show you how to install the Homebrew Package Manager 
 on macOS and use it to install the required dependencies for the **NYU 
 Processor Design Team**.
+
+---
 
 ## Contents
 - [System Requirements](#system-requirements)
@@ -14,6 +19,8 @@ Processor Design Team**.
   - [Verilator](#verilator)
 - [Maintaining Packages](#maintaining-packages)
 - [Further Reading](#further-reading)
+
+---
 
 ## System Requirements
 - **CPU:** 64-bit Intel or Apple Silicon
@@ -25,6 +32,8 @@ Processor Design Team**.
     ```
 - Bourne-again shell for installation
   (You most likely have this)
+
+---
 
 ## Installing Homebrew
 - **Disclaimer:** It is best to not copy-paste commands after the first
@@ -120,19 +129,24 @@ you use to unlock your computer
   brew help
   ```
 
+---
+
 ## Installing Packages
-- The installation command for Homebrew is `brew install <package name>`
+- The installation command for Homebrew is:
+  ```console
+  brew install <package name>
+  ```
 
-- This will search for the specified package and install it in the directory 
-  `/usr/local/Cellar/` by default
+- This will search homebrew's registry for the specified package and install 
+  it in the directory `/usr/local/Cellar/` by default
 
-- It will then make links to the package at `/usr/local/opt/` and 
+- It will then make symlinks to the package at `/usr/local/opt/` and 
   `/usr/local/bin/` so the packages can be used as executables
 
 - If you want to get information about a specific installed package, you can 
   use the `brew info` command like this:
   ```console
-  brew install <package name>
+  brew info <package name>
   ```
 
 - To install dependencies used by the **NYU Processor Design Team**, run
@@ -148,6 +162,9 @@ brew install cmake
 ```console
 brew install verilator
 ```
+
+---
+
 ## Maintaining Packages
 - To update Homebrew and package definitions, regularly run the following
   ```console
@@ -163,6 +180,8 @@ brew install verilator
   ```console
   brew upgrade <package name>
   ```
+
+---
 
 ## Further Reading
 - If you want to explore more about Homebrew or run into any trouble visit the
