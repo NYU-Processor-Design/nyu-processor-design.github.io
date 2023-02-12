@@ -1,5 +1,7 @@
 # Week 3: Verification
 
+---
+
 ## Purpose
 
 The layout of this lab is the same as the previous one, but the situation
@@ -66,7 +68,7 @@ Fork the [Lab Week 3 repo](https://github.com/NYU-Processor-Design/onboarding-la
 to your personal Github account and complete the exercises in that repo. (For
 design log purposes, this cloned repo will be the one you link to.)
 
-The toolchain has already been setup for you for all the exercises. It uses
+The toolchain has already been set up for you for all the exercises. It uses
 techniques you have not been introduced to yet so don't be concerned if you
 don't understand all of it. You can build the simulations using the techniques
 from the [Week 1 Onboarding Lab](02_cmake.md).

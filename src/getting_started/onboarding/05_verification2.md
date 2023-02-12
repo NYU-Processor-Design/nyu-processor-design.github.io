@@ -34,7 +34,8 @@ very important to hardware development, these utilities will come in handy. The
 
 ## Setup
 
-Fork the Lab Week 4 repo to your personal Github account. This repo features the
+Fork the [Lab Week 4 repo](https://github.com/NYU-Processor-Design/onboarding-lab-4)
+to your personal Github account. This repo features the
 same modules as [Lab 3](04_verification.md), but you will be converting your
 tests to use the catch2 framework. In addition, much of the toolchain code is
 not yet written. We will need to add it ourselves.
@@ -43,7 +44,7 @@ not yet written. We will need to add it ourselves.
 
 A **registry** is a collection of information about **packages**, where packages
 are the source code files (System Verilog, C++, or even cmake files) that we wish
-to  use in our project. We keep track of the registries we're using in a given
+to use in our project. We keep track of the registries we're using in a given
 project with the `vcpkg-configuration.json` file.
 
 If you look at the `vcpkg-configuration.json` file in the Lab 4 repo, you will
@@ -63,8 +64,7 @@ find something that looks like the following:
 This is a registry listing, this json file tells `vcpkg` where to look for
 packages. In this case, the only registry listed is the `default-registry`,
 which is where `vcpkg` will search if a requested package is not listed for
-any other registry. Here the `default-registry` is pointed at a git repo managed
-by Microsoft, which has many useful packages in it. The `registries` list, which
+any other registry. Here the `default-registry` is pointed at a git repo managed by Microsoft, which has many useful packages in it. The `registries` list, which
 would contain all other registries we wish to use, is empty.
 
 We will need to add a registry to the registry list. The required fields for a
@@ -176,7 +176,7 @@ Next we need to create a library. This works just like creating an executable
 from Lab 1, except the command is `add_library()` instead of `add_executable()`.
 
 We're actually going to create a special kind of library called an ***interface
-library***. This differs slightly from a "normal" library, because an interface
+library***. This differs slightly from a "normal" library because an interface
 library can consist of code and files that aren't compiled immediately.
 
 Our System Verilog files cannot be compiled directly, so they're a good fit for
@@ -189,7 +189,7 @@ add_library(lab4 INTERFACE)
 
 ## Subdirectories and `nyu_` Commands
 
-In the same way we split up source code into multiple files to keep it
+In the same way that we split up source code into multiple files to keep it
 organized, we often split CMLs into multiple files for the same reason.
 
 One way to do this is the `add_subdirectory` command, which will search a
@@ -248,7 +248,7 @@ We're going to write our testing commands inside the `dv` directory (`dv`
 stands for _**d**esign **v**erification_), so add a CML to the `dv` directory.
 
 Inside the top level CML ("top level" means the original CML, in the root
-diretory of the repository), add a conditional that checks `NYU_BUILD_TEST` and
+directory of the repository), add a conditional that checks `NYU_BUILD_TEST` and
 inside that conditional add the following lines:
 
 ```cmake
@@ -259,6 +259,14 @@ inside that conditional add the following lines:
 The `add_subdirectory()` command should now be familiar. The `enable_testing()`
 command tells `cmake` that we want it to generate files necessary to
 automatically run tests for us.
+
+When running `cmake`, we'll need to turn this conditional on. To set the
+`NYU_BUILD_TESTS` variable when running `cmake`, we'll use the following command
+(assuming we're running `cmake` from inside a build directory):
+
+```
+cmake -DNYU_BUILD_TESTS=TRUE ..
+```
 
 ## The Test Executable
 

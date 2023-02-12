@@ -37,17 +37,17 @@ git branch -c branch_name
 Then to switch to the branch we can use:
 
 ```
-git checkout branch_name
+git switch branch_name
 ```
 
 These two operations are so common, that there is a shortcut to do them in a
 single command:
 
 ```
-git checkout -b branch_name
+git switch -c branch_name
 ```
 
-The same behavior can be found in GitLens by right clicking on a branch you
+The same behavior can be found in Source Control by right clicking on a branch you
 would like to branch from:
 
 <img src="/images/git/branch.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
@@ -61,7 +61,7 @@ Github with the following commands:
 git push [remote_name] [branch_name]
 ```
 
-This is equivalent to the GitLens "Publish Branch" button:
+This is equivalent to the Source Control "Publish Branch" button:
 
 <img src="/images/git/publish.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
 
@@ -96,17 +96,17 @@ delete the branch you did the work on.
 You can do this with:
 
 ```
-git checkout main
+git switch main
 git branch -D branch_name
 git push origin -D branch_name
 ```
 
 The first command switches off of the development branch, because you cannot
 delete a branch that is currently checked-out. The second command deletes the
-locally copy of the branch, and the third command deletes the remote copy.
+local copy of the branch, and the third command deletes the remote copy.
 
 The deletions are equivalent to right clicking and selecting "Delete branch"
-in GitLens.
+in Source Control.
 
 
 ## Integrating Upstream Changes

@@ -7,7 +7,20 @@
 |    Position    |      Name      |         Email        |   Office Hours
 -----------------|----------------|----------------------|-----------------
 | Course Advisor |  Jeff Epstein  | jeff.epstein@nyu.edu | By Appointment
-|    Team Lead   | Vito Gamberini |    nvg7278@nyu.edu   |       TBA
+|    Team Lead   | Vito Gamberini |    nvg7278@nyu.edu   |   See Table
+
+**Vito's Office Hours**
+
+My office hours are shared with other classes, who will take priority over
+VIP students. That said, my office hours aren't busy 90% of the time so don't
+hesitate to drop in if you have a question. Email or ping me in the discord
+to drop into my personal meeting room.
+
+| Day(s) |  Hours | Zoom Link
+---------|--------|-----------
+|Tue/Thr |4 - 5PM | [https://nyu.zoom.us/j/98175592480](https://nyu.zoom.us/j/98175592480)
+|  Wed   |5 - 7PM | [https://nyu.zoom.us/j/94322981067](https://nyu.zoom.us/j/94322981067)
+|  N/A   |  Appt  | [https://nyu.zoom.us/j/6751151114](https://nyu.zoom.us/j/6751151114)
 
 ## Course Prerequisites
 
