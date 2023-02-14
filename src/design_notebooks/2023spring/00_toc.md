@@ -4,6 +4,8 @@
 
   * [Aniket Kriplani](ak9100.md)
 
+  * [Gabrielle Lim](gil2011.md)
+
   * [Krzystof Chciuk](kc3977.md)
 
   * [Kevin Yap](kcy4870.md)
@@ -15,6 +17,8 @@
   * [Rishyak Panchal](rp3193.md)
 
   * [Swarnashri Chandrashekar](sc8781.md)
+
+  * [Siddharth Kandpal](sk8944.md)
 
   * [Sean Doyle](spd7416.md)
 

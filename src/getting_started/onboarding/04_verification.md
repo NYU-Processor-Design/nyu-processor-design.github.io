@@ -1,5 +1,7 @@
 # Week 3: Verification
 
+---
+
 ## Purpose
 
 The layout of this lab is the same as the previous one, but the situation
@@ -64,12 +66,14 @@ When changing inputs, the outputs of the model can be evaluated using the
 
 Fork the [Lab Week 3 repo](https://github.com/NYU-Processor-Design/onboarding-lab-3)
 to your personal Github account and complete the exercises in that repo. (For
-design log purposes, this cloned repo will be the one you link to.)
+design log purposes, this cloned repo will be the one you link to.) Write your
+C++ test bench code in the C++ source code files located in the `dv` folder
+of the repo.
 
 The toolchain has already been setup for you for all the exercises. It uses
 techniques you have not been introduced to yet so don't be concerned if you
 don't understand all of it. You can build the simulations using the techniques
-from the [Week 1 Onboarding Lab](01_cmake.md).
+from the [Week 1 Onboarding Lab](02_cmake.md).
 
 ---
 
@@ -122,7 +126,7 @@ However, the mysteries have been changed. Mystery1 operates as follows:
 * If `a` is 3, then `d` is `c`
 
 
-And Mystery2 operates according ot the following rules:
+And Mystery2 operates according to the following rules:
 
 * Clocked on negative clock edge
 
@@ -154,7 +158,7 @@ The Exercise4 module has the following behavior:
 |     1    |   0   |  alpha
 |     1    |   1   |   beta
 |     1    |   2   |  gamma
-|     1    |   3   |  alpha & (beta | gamma)
+|     1    |   3   |  alpha & (beta \| gamma)
 
 Write a test that reasonably verifies the behavior of the module.
 
