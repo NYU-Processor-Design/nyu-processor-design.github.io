@@ -16,11 +16,12 @@ Processor Design Team**.
 ## Contents
 - [Installing WSL](#installing-wsl)
 - [Using VSCode with WSL](#using-vscode-with-wsl)
-- [Installing Dependencies (Ubuntu)](#installing-dependencies-ubuntu)
+- [Installing Packages (Ubuntu)](#installing-packages-ubuntu)
   - [CMake](#cmake)
   - [Verilator](#verilator)
   - [cURL](#curl)
   - [Git](#git)
+- [Maintaining Packages](#maintaining-packages)
 - [Optional: Using Zsh](#optional-using-zsh)
   - [Prettifying Zsh](#prettifying-zsh)
   - [Changing VSCode's Default Terminal](#changing-vscodes-default-terminal)
