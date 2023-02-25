@@ -95,7 +95,7 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
 2. Download the `.ova` file
    - OVA stands for Open Virtualisation Appliance
    - It is a common file extension that hypervisors use
-   - The **NYU Processor Design Team** VM conntains the *entire*
+   - The **NYU Processor Design Team** VM contains the *entire*
      OS, some applications, utilities, etc. and therefore, is ~7 GB.
 
 ## Importing the VM
