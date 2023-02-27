@@ -3,83 +3,155 @@
 ---
 ## Purpose
 
-Collaboration is an essential part of working in any team. Much of our work is shared and built upon each others’ contributions - whether it is the components themselves, editing documentation, or making improvements to the **Processor Design Team** website. Additionally, as team members join the team with different areas of expertise, it is important to support one another in the learning and development process.
+Collaboration is an essential part of working in any team. Much of our work is 
+shared and built upon each others’ contributions - whether it is the components 
+themselves, editing documentation, or making improvements to this website. 
+
+Additionally, as team members join the team with different 
+areas of expertise, it is important to support one another in the learning and 
+development process.
+
+---
+
+## Terminology
+- `upstream`: The main repository owned by the organisation
+- `origin`: Your fork of the repository
+
+---
 
 ## Team Repositories
 
-Team members should have access to the [NYU Processor Design Github organization](https://github.com/NYU-Processor-Design) and its repos. Throughout the project, you will need to add to or change the shared repos - for example, adding a design notebook entry to [this website](https://github.com/NYU-Processor-Design/nyu-processor-design.github.io) or editing a component of the [AMBA] (https://github.com/NYU-Processor-Design/nyu-amba). To edit efficiently, fork the appropriate repo and make a temporary branch of your fork. After making changes, create a pull request to merge your changes to the team’s upstream repository by following [this guide](https://nyu-processor-design.github.io/getting_started/notebooks/04_first_pr.html). Creating a temporary branch ensures that you won’t be pushing extra/irrelevant changes to the team repo, such as syncing your fork from the upstream.
+- Team members should have access to the [NYU Processor Design GitHub organization](https://GitHub.com/NYU-Processor-Design). 
+
+- Throughout the project, you will need to work on the shared repos - for 
+  example, adding a design notebook entry to [our website](https://GitHub.com/NYU-Processor-Design/nyu-processor-design.GitHub.io), or editing a component of the [AMBA](https://GitHub.com/NYU-Processor-Design/nyu-amba) or 
+  [core](https://GitHub.com/NYU-Processor-Design/nyu-core). 
+
+- To work efficiently, you want to fork the appropriate repo and make a branch 
+  on your fork. 
+
+- After making changes, create a pull request to merge your changes to the team’s
+  repository by following [this guide](04_first_pr.md). 
+
+- Once your changes have been merged, delete your branch and update your fork.
 
 ## Working on Forks
 
-When working on your fork of a repo, you want to avoid working directly on the main branch of your fork, then pushing your commits to the upstream repo from the main branch itself. This can cause messy pull requests that include merge commits and other commits that aren't associated with your work. This 'pollution' makes it harder for git to incorporate changes from upstream and may cause merge conflicts. Ideally, all PRs should come from separate branches (single-commit PRs are the best).
+- When working on your fork of a active and constantly updating repository, 
+  you want to avoid working directly on the main branch of your fork. 
 
-Before you start working, make sure to update your fork's main branch to match the team's upstream repo. You can use the 'Sync Fork' button on GitHub or do this locally with the following commands:
+- This keeps `main` clean to fast-forward[^ff] any changes from upstream. 
 
-```
-git pull upstream main
-git push origin main
-```
+- If you work on `main`, merging changes from upstream will cause "merge" commits,
+  making `upstream` and `origin` have different histories
 
-Then, make a new temporary branch (you can call it anything you want, we called it `temp` here). You can do this on GitHub or using the command below:
+- It also creates extra work for the maintainers because they have to clean 
+  your fork before merging your changes.
 
-```
-git switch -c temp
-```
+- Working on `main` will also create messy pull requests with merge commits and 
+  other commits that aren't associated with your work. 
 
-This creates a new branch, then switches to that branch. You can also do this in two steps:
+- This 'pollution' makes it harder for git to incorporate changes from upstream
+  and may cause merge conflicts, which will have to be fixed
 
-```
-git branch temp
-git switch temp
-```
-Now, you can make and commit your changes to the temporary branch. Your PR should take the changes from your temporary branch to the upstream repo. After your changes are merged to upstream, you can delete your temporary branch:
+- Before you start working, make sure to update your fork's main branch to 
+  match the team's upstream repo. You can use the "Sync fork" button on GitHub 
+or do this locally with the following commands:
+  ```console
+  git pull upstream main
+  git push origin main
+  ```
 
-```
-git switch main
-git branch -D temp
-```
-You can't delete a branch you're currently working on, so remember to switch to your main branch before deleting the temporary one.
+- Then, follow the [Your First Pull Request](04_first_pr.md) guide. 
 
-`-d` is delete and `-D` is force delete. You want to force delete the `temp` branch because git doesn't want you to try deleting a branch that hasn't been merged anywhere.
-
-Repeat this process for each change/addition/PR you make to avoid convoluted PRs.
+---
 
 ## Fixing Fork Issues
 
-After reading the previous section, you're now realizing your PRs and forked repo are a little messy. Don't worry, you can clean up your main branch and create a new, single-commit PR.
+After reading the previous section, you are now realizing your PRs and forked repo
+are a little messy. Don't worry, you can clean up your main branch by following the
+guide below and create a new, beautiful, PR.
 
-First, create a branch from your current main branch so you don't lose any changes.
+### Guide
 
-```
-git branch oldmain
-```
-Clean up your main branch by merging any changes from the upstream repo and resetting your fork.
-```
-git fetch upstream
-git reset --hard upstream/main
-```
-Force-push your changes to your remote version of the repo:
-```
-git push -f
-```
-Create a new branch for your changes/work (called `temp` below):
-```
-git switch -c temp
-```
-Then, cherry-pick your changes and put them into your temporary branch:
-```
-git cherry-pick "44026dc^..1a5494c"
-```
-Don't worry - you're not expected to know cherry-picking or regularly use it. For now, trust that this command will take your changes and store them on your temporary PR branch. If you're interested, you can find out more about how/why this works in the Pro Git Book.
+1. Create a branch from your current main branch so you don't lose any 
+  changes.
+   ```console
+   git branch oldmain
+   ```
 
-If you have more than one commit, you can squash them into one single-commit if you know how, but if not, team leaders can squash and merge your commits into the upstream repo.
+1. Clean up your main branch by performing a hard reset from upstream's main. This
+   will equalise upstream and origin - their histories will be the same. Anything
+   not on upstream will be lost.
+   ```console
+   git fetch upstream
+   git reset --hard upstream/main
+   ```
 
-After cleaning up your fork, you can now create an efficient, clean pull request from the temporary branch.
+2. Force-push your changes to origin
+   ```console
+   git push -f
+   ```
+
+1. Create a new branch for your changes/work (called `temp` below):
+   ```console
+   git switch -c temp
+   ```
+
+2. Then, cherry-pick your changes into your temporary branch:
+   ```console
+   git cherry-pick <commit>...
+   ```
+   - Where `<commit>...` will be the SHA's of the commits you want to bring over
+   - For example, if you wanted to cherry-pick `1337abc`, `eb722ec`, `c00eba4`,
+     your command will be:
+     ```console
+     git cherry-pick 1337abc eb722ec c00eba4
+     ```
+   - Don't worry - you're not expected to know cherry-picking or regularly use
+     it.
+   - For now, trust that this command will take your changes and store them on 
+     your temporary branch. 
+   - If you're interested, you can find out more about how/why this works 
+     in the [Pro Git Book](https://git-scm.com/docs/git-cherry-pick).
+
+1. ***Optionally***, if you have more than one commit, you can squash them into 
+   one commit if you know how, but if not, the maintainers can squash and 
+   merge your commits into the upstream repo.
+   - The easiest way to squash commits is to perform an interactive rebase
+
+After cleaning up your fork, you can now create a clean pull request from your
+branch.
 
 ## Issues and Questions
 
-Nobody’s perfect, which means there may be errors and questions on component modules, git documentation, et cetera. If you see a problem or have a question, ask the team and/or open a new issue on GitHub using [these guidelines](https://github.com/NYU-Processor-Design/.github/blob/main/.github/CONTRIBUTING.md). You can also use this contribution guide when submitting a design notebook entry.
+- Nobody’s perfect, which means there may be errors and questions on component
+  modules, git documentation, etc. 
+
+- If you see a problem or have a question, ask the team and/or open a new issue 
+  on GitHub using [these guidelines](https://github.com/NYU-Processor-Design/.github/blob/main/.github/CONTRIBUTING.md). 
+
+- You should also use this contribution guide when submitting a design notebook 
+  entry.
 
 ## Additional Support
 
-You are all talented and intelligent – that’s why you’re here – but team members will join the VIP with different levels of experience and knowledge. Part of working collaboratively is learning from one another and supporting each other. If you see someone struggling or learning something new, offer your assistance in a helpful and respectful way.
+- You are all talented and intelligent – that’s why you’re here – but team 
+  members will join the VIP with different levels of experience and knowledge. P
+
+- The best part of working collaboratively is learning from one another and  
+  supporting each other. 
+  
+- If you see someone struggling or learning something new, offer your assistance
+  in a helpful and respectful way.
+
+
+---
+
+[^ff]: [Fast-forwarding](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) is 
+when git moves the head pointer forward to the tip of the target. You don't
+have to actually "merge" the branches.
+
+[^name]: We implore you to choose good branch names. Names like `temp`, `fix`, 
+etc. are not descriptive. For example, if you're working on a UART, name your 
+branch `uart`.
