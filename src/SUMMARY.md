@@ -11,6 +11,7 @@
   - [Getting Started With Git](getting_started/notebooks/02_git.md)
   - [Working With Your Repo](getting_started/notebooks/03_dev_workflow.md)
   - [Your First Pull Request](getting_started/notebooks/04_first_pr.md)
+  - [Working Collaboratively](getting_started/notebooks/05_collab.md)
 - [Development Environment](getting_started/development/00_toc.md)
   - [Mac: Homebrew Installation](getting_started/development/01_homebrew.md)
   - [VirtualBox Guide](getting_started/development/02_vbox.md)
