@@ -16,6 +16,8 @@ into another copy of the same repo. So to start we will need to make a copy
 to perform changes on. In the case of the design notebooks, the repo to fork
 is [the one that contains the site you're reading right now](https://github.com/NYU-Processor-Design/nyu-processor-design.github.io).
 
+To understand why you should work on forks, read the next guide - [Working Collaboratively](05_collab.md).
+
 To create a fork, you need only click the fork button at the top right of the page:
 
 <img src="/images/git/fork.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
