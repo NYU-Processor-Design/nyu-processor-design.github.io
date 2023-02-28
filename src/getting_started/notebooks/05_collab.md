@@ -55,12 +55,15 @@ development process.
   and may cause merge conflicts, which will have to be fixed
 
 - Before you start working, make sure to update your fork's main branch to 
-  match the team's upstream repo. You can use the "Sync fork" button on GitHub 
-or do this locally with the following commands:
-  ```console
-  git pull upstream main
-  git push origin main
-  ```
+  match the team's upstream repo. 
+  - You can use the "Sync fork" button on GitHub 
+  <img src="/images/sync-fork-github.jpg" width="90%" style="margin-left: auto; margin-right: auto; display: block;" />
+  
+  - Or, locally with the following commands:
+    ```console
+    git pull upstream main
+    git push origin main
+    ```
 
 - Then, follow the [Your First Pull Request](04_first_pr.md) guide. 
 
@@ -123,6 +126,8 @@ guide below and create a new, beautiful, PR.
 After cleaning up your fork, you can now create a clean pull request from your
 branch.
 
+---
+
 ## Issues and Questions
 
 - Nobody’s perfect, which means there may be errors and questions on component
@@ -137,7 +142,7 @@ branch.
 ## Additional Support
 
 - You are all talented and intelligent – that’s why you’re here – but team 
-  members will join the VIP with different levels of experience and knowledge. P
+  members will join the VIP with different levels of experience and knowledge.
 
 - The best part of working collaboratively is learning from one another and  
   supporting each other. 
