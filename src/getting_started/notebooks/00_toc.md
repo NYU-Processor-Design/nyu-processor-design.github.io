@@ -9,3 +9,5 @@
 3. [Working With Your Repo](03_dev_workflow.md)
 
 4. [Your First Pull Request](04_first_pr.md)
+
+5. [Working Collaboratively](05_collab.md)

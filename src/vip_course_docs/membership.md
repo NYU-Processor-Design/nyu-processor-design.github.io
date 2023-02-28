@@ -28,7 +28,7 @@ RISC-V core design
 
 Memory controller and bus design, and memory compiler integration
 
-**AMBA/Peripheral:**
+**AMBA/Peripheral:** Rishyak Panchal
 
 Everything AMBA-related, and essential peripherals
 
@@ -50,10 +50,6 @@ Active members are currently enrolled with the team, or were enrolled in the
 most recent full semester. Each develops their own goals and works in
 conjunction with project leadership and czars to make sure those goals advance
 the project and develop valuable technical skills.
-
-### Senior Design
-
-* Rishyak Panchal
 
 ### VIP
 

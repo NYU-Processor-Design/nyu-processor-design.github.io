@@ -11,6 +11,11 @@
   - [Getting Started With Git](getting_started/notebooks/02_git.md)
   - [Working With Your Repo](getting_started/notebooks/03_dev_workflow.md)
   - [Your First Pull Request](getting_started/notebooks/04_first_pr.md)
+  - [Working Collaboratively](getting_started/notebooks/05_collab.md)
+- [Development Environment](getting_started/development/00_toc.md)
+  - [Mac: Homebrew Installation](getting_started/development/01_homebrew.md)
+  - [VirtualBox Guide](getting_started/development/02_vbox.md)
+  - [Windows: WSL Installation](getting_started/development/03_wsl_vscode.md)
 - [Onboarding Labs](getting_started/onboarding/00_toc.md)
   - [Lab Guidance](getting_started/onboarding/01_guidance.md)
   - [Week 1: CMake and Toolchain](getting_started/onboarding/02_cmake.md)
@@ -21,9 +26,6 @@
   - [Week 6: Packaging and Dependency Management](getting_started/onboarding/07_dependencies.md)
   - [Week 7: Processor Design](getting_started/onboarding/08_cpu.md)
   - [Week 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
-- [Development Environment](getting_started/development/00_toc.md)
-  - [Mac: Homebrew Installation](getting_started/development/01_homebrew.md)
-
 # Design Notebooks
 - [Spring 2023](design_notebooks/2023spring/00_toc.md)
   - [Aniket Kriplani](design_notebooks/2023spring/ak9100.md)
