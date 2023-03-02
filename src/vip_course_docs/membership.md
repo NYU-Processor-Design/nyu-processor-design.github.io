@@ -40,7 +40,7 @@ Verification simulator development and integration
 
 RISC-V software and toolchain development
 
-**Onboarding/Documentation:**
+**Onboarding/Documentation:** Uma Nachiappan
 
 Labs, project documentation, and outreach
 
@@ -54,8 +54,6 @@ the project and develop valuable technical skills.
 ### VIP
 
 * Aniket Kriplani
-
-* Uma Nachiappan
 
 * Sean Doyle
 
