@@ -20,7 +20,7 @@ Czars own their respective parts of the technology stack. They have complete
 discretion to make technical decisions, review change requests, set iteration
 goals, and develop materials directly related to their objectives.
 
-**CPU:**
+**CPU:** Michael Lippe
 
 RISC-V core design
 
@@ -59,12 +59,10 @@ the project and develop valuable technical skills.
 
 * Sean Doyle
 
-* Swarnashri Chandrashekar
+* Sharan Reddy Avija
 
 * Siddharth Kandpal
 
 * Gabrielle Lim
-
-* Michael Lippe
 
 * Kevin Yap
