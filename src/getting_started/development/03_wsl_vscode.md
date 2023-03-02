@@ -16,11 +16,12 @@ Processor Design Team**.
 ## Contents
 - [Installing WSL](#installing-wsl)
 - [Using VSCode with WSL](#using-vscode-with-wsl)
-- [Installing Dependencies (Ubuntu)](#installing-dependencies-ubuntu)
+- [Installing Packages (Ubuntu)](#installing-packages-ubuntu)
   - [CMake](#cmake)
   - [Verilator](#verilator)
   - [cURL](#curl)
   - [Git](#git)
+- [Maintaining Packages](#maintaining-packages)
 - [Optional: Using Zsh](#optional-using-zsh)
   - [Prettifying Zsh](#prettifying-zsh)
   - [Changing VSCode's Default Terminal](#changing-vscodes-default-terminal)
@@ -70,7 +71,7 @@ Processor Design Team**.
 
 ---
 
-## Installing Dependencies (Ubuntu)
+## Installing Packages (Ubuntu)
 - The installation command for Ubuntu is
   ```console
   sudo apt install <package name>
@@ -81,16 +82,6 @@ Processor Design Team**.
     ```console
     sudo apt install cmake verilator clang-format
     ```
-  
-- You should regularly run the following two commands:
-  - Update and upgrade packages
-    ```console
-    sudo apt update && sudo apt upgrade -y
-    ```
-    - `update` fetches the latest information of the installed packages
-    - `upgrade` will upgrade them if newer versions have been released
-    - the `-y` flag simply tells APT that it has permission to upgrade everything
-      and doesn't have to ask you to say "yes" to each upgrade
 
 ### CMake
 ```console
@@ -110,6 +101,28 @@ sudo apt install git
 ```
 - Then follow the [Getting Started With Git](../notebooks/02_git.md) tutorial
   to configure git
+
+---
+
+## Maintaining Packages
+- To update APT and package definitions, run the following
+  ```console
+  sudo apt update
+  ```
+  - `update` fetches the latest information of the installed packages
+
+- Upgrade everything
+  ```console
+  sudo apt upgrade -y
+  ```
+  - `upgrade` will upgrade them if newer versions have been released
+  - the `-y` flag simply tells APT that it has permission to upgrade everything
+    and doesn't have to ask you to say "yes" to each upgrade
+
+- Uninstall a packages
+  ```console
+  sudo apt remove <package name>
+  ```
 
 ---
 

@@ -136,9 +136,14 @@ you use to unlock your computer
   ```console
   brew install <package name>
   ```
+  - This will search for the specified package[^tap] in the brew registry
+    and install it in your system.
+  - You can list multiple package names in one command, for example:
+    ```console
+    brew install cmake verilator clang-format
+    ```
 
-- This will search homebrew's registry for the specified package and install 
-  it in the directory `/usr/local/Cellar/` by default
+- Homebrew installs packages in `/usr/local/Cellar/` by default
 
 - It will then make symlinks to the package at `/usr/local/opt/` and 
   `/usr/local/bin/` so the packages can be used as executables
@@ -149,11 +154,9 @@ you use to unlock your computer
   brew info <package name>
   ```
 
-- To install dependencies used by the **NYU Processor Design Team**, run
-  the following commands in the Terminal
-
 - macOS comes with most dependencies pre-installed, so you only need CMake
   and Verilator
+  - To install said dependencies, run the following commands in the Terminal
 ### CMake
 ```console
 brew install cmake
@@ -181,9 +184,19 @@ brew install verilator
   brew upgrade <package name>
   ```
 
+- Uninstall a package
+  ```console
+  brew uninstall <package name>
+  ```
+
 ---
 
 ## Further Reading
 - If you want to explore more about Homebrew or run into any trouble visit the
   [official site](https://brew.sh/) or the [FAQs](https://docs.brew.sh/FAQ) 
   for many more guides and explanations.
+
+---
+[^tap]: Homebrew calls these "taps" or "bottles", depending on how they are 
+installed   
+
