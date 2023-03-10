@@ -84,9 +84,48 @@ Processor Design Team**.
     ```
 
 ### CMake
-```console
-sudo apt install cmake
-```
+Unfortunately, APT doesn't have the latest version of CMake, so we must use
+this alternative[^cmake].
+- #### Uninstall existing CMake Versions
+  ```console
+  sudo apt remove --purge --auto-remove cmake
+  ```
+- #### Preparing for Installation
+  ```console
+  sudo apt update && \
+  sudo apt install -y software-properties-common lsb-release && \
+  sudo apt clean all
+  ```
+- #### Obtain a copy of kitware's signing key
+  ```console
+  wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
+  ```
+- #### Add kitware's reposity to sources list
+  ```console
+  sudo apt-add-repository "deb https://apt.kitware.com/ubuntu/ $(lsb_release -cs) main"
+  ```
+- #### Optionally, installing kitware-archive keyring package to keep Kitware's keyring up to date
+  ```console 
+  sudo apt update
+  sudo apt install kitware-archive-keyring
+  sudo rm /etc/apt/trusted.gpg.d/kitware.gpg
+  ```
+- #### If running `sudo apt update` gets the following error:
+  ```console
+  Err:7 https://apt.kitware.com/ubuntu bionic InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 6AF7F09730B3F0A4
+  Fetched 11.0 kB in 1s (7552 B/s)
+  ```
+  Copy the public key `6AF7F09730B3F0A4` and run this command:
+  ```console
+  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6AF7F09730B3F0A4
+  ```
+- #### Finally, update and install the `cmake` package
+  ```console
+  sudo apt update
+  sudo apt install cmake
+  ```
+  
 ### Verilator  
 ```console
 sudo apt install verilator
@@ -202,3 +241,5 @@ sudo apt install git
 
 [^hypervisor]: A [hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html?resource=cat-1299087558#cat-1299087558) 
 is software that runs and monitors virtual machines   
+
+[^cmake]: Summarized from [this Stack Exchange question](https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line)
