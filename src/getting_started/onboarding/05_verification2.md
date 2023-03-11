@@ -61,7 +61,7 @@ find something that looks like the following:
 }
 ```
 
-This is a registry listing, this json file tells `vcpkg` where to look for
+This is a registry listing, a json file that tells `vcpkg` where to look for
 packages. In this case, the only registry listed is the `default-registry`,
 which is where `vcpkg` will search if a requested package is not listed for
 any other registry. Here the `default-registry` is pointed at a git repo managed by Microsoft, which has many useful packages in it. The `registries` list, which
