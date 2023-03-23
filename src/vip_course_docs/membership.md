@@ -20,7 +20,7 @@ Czars own their respective parts of the technology stack. They have complete
 discretion to make technical decisions, review change requests, set iteration
 goals, and develop materials directly related to their objectives.
 
-**CPU:**
+**CPU:** Michael Lippe
 
 RISC-V core design
 
@@ -40,7 +40,7 @@ Verification simulator development and integration
 
 RISC-V software and toolchain development
 
-**Onboarding/Documentation:**
+**Onboarding/Documentation:** Uma Nachiappan
 
 Labs, project documentation, and outreach
 
@@ -55,16 +55,12 @@ the project and develop valuable technical skills.
 
 * Aniket Kriplani
 
-* Uma Nachiappan
-
 * Sean Doyle
 
-* Swarnashri Chandrashekar
+* Sharan Reddy Avija
 
 * Siddharth Kandpal
 
 * Gabrielle Lim
-
-* Michael Lippe
 
 * Kevin Yap
