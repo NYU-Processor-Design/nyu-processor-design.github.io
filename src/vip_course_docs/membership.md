@@ -24,7 +24,7 @@ goals, and develop materials directly related to their objectives.
 
 RISC-V core design
 
-**Memory:**
+**Memory:** Sean Doyle
 
 Memory controller and bus design, and memory compiler integration
 
@@ -54,8 +54,6 @@ the project and develop valuable technical skills.
 ### VIP
 
 * Aniket Kriplani
-
-* Sean Doyle
 
 * Sharan Reddy Avija
 
