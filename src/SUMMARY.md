@@ -16,6 +16,7 @@
   - [Mac: Homebrew Installation](getting_started/development/01_homebrew.md)
   - [VirtualBox Guide](getting_started/development/02_vbox.md)
   - [Windows: WSL Installation](getting_started/development/03_wsl_vscode.md)
+  - [VS Code Extension Recommendations](getting_started/development/04_vscode_ext.md)
 - [Onboarding Labs](getting_started/onboarding/00_toc.md)
   - [Lab Guidance](getting_started/onboarding/01_guidance.md)
   - [Week 1: CMake and Toolchain](getting_started/onboarding/02_cmake.md)
