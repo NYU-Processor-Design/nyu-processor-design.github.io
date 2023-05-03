@@ -25,7 +25,6 @@
   - [Rewrap](#rewrap)
 
 ---
-
 ### SystemVerilog Language Server
 
 [SVLangserver](https://marketplace.visualstudio.com/items?itemName=IMCTradingBV.svlangserver) is a language server for System Verilog that features auto-completion, module hierarchy, code snippets for common blocks, code formatting, syntax highlighting, and more.
@@ -33,7 +32,6 @@
 To install, find svlangserver in the VSCode marketplace. You can modify your extension settings to your desired preferences as detailed in the link above. The extension's commands and troubleshooting can also be found in the link.
 
 ---
-
 ### C++ Pack
 
 [This extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack) has 4 sets of popular extensions:
@@ -43,26 +41,22 @@ To install, find svlangserver in the VSCode marketplace. You can modify your ext
   - [CMake support](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
   - [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
   
----
-  
+--- 
 ### Doxygen Generator
   
 [Doxygen](https://github.com/doxygen/doxygen) is a documentation generator that extracts documentation from C++ source code comments. This [Doxygen comment generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen) creates Doxygen comments for a variety of code snippets: constructors, functions, file descriptions, etc.
   
 ---
-
 ### Better Comments
 
 [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) helps to create more understandable, categorizable comments for your code, and works with C++ and Verilog.
 
 ---
-
 ### Spell Checker
 
 This [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) does exactly that: it is a basic spell check that can be customized and has a variety of add-on language dictionaries.
 
 ---
-
 ## Git & GitHub
 
 ### GitLens
@@ -80,13 +74,11 @@ This [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=st
 The [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) extensions lets you review and manage GitHub PRs and issues directly in VSCode.
 
 ---
-
 ### Markdown All in One
 
 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) is a collection of Markdown commands and features like keyboard shortcuts, math, table of contents, etc.
 
 ---
-
 ## Optional Bonuses
 
 ### ColdCode
