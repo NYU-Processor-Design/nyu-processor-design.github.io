@@ -6,7 +6,7 @@
 
 |    Position    |      Name      |         Email        |   Office Hours
 -----------------|----------------|----------------------|-----------------
-| Course Advisor |  Jeff Epstein  | jeff.epstein@nyu.edu | By Appointment
+| Course Advisor |  Ratan Dey     |      ratan@nyu.edu   | By Appointment
 |    Team Lead   | Vito Gamberini |    nvg7278@nyu.edu   |   See Table
 
 **Vito's Office Hours**
@@ -18,8 +18,7 @@ to drop into my personal meeting room.
 
 | Day(s) |  Hours | Zoom Link
 ---------|--------|-----------
-|Tue/Thr |4 - 5PM | [https://nyu.zoom.us/j/98175592480](https://nyu.zoom.us/j/98175592480)
-|  Wed   |5 - 7PM | [https://nyu.zoom.us/j/94322981067](https://nyu.zoom.us/j/94322981067)
+|Tue/Thr |6:30 - 7:30PM | TBA
 |  N/A   |  Appt  | [https://nyu.zoom.us/j/6751151114](https://nyu.zoom.us/j/6751151114)
 
 ## Course Prerequisites
