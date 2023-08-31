@@ -8,7 +8,7 @@ Project leadership facilitate and administrate the academic aspect of the team,
 determine high-level objectives, and develop materials for a broad set of
 team requirements.
 
-**Faculty Advisor:** Jeff Epstein
+**Faculty Advisor:** Ratan Dey
 
 **Team Lead:** Vito Gamberini
 
@@ -24,7 +24,7 @@ goals, and develop materials directly related to their objectives.
 
 RISC-V core design
 
-**Memory:** Sean Doyle
+**Memory:**
 
 Memory controller and bus design, and memory compiler integration
 
@@ -52,12 +52,6 @@ conjunction with project leadership and czars to make sure those goals advance
 the project and develop valuable technical skills.
 
 ### VIP
-
-* Aniket Kriplani
-
-* Sharan Reddy Avija
-
-* Siddharth Kandpal
 
 * Gabrielle Lim
 
