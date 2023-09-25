@@ -44,6 +44,10 @@ RISC-V software and toolchain development
 
 Labs, project documentation, and outreach
 
+**Finance:** Rielle Lim
+
+Budgeting, purchasing, and fundraising
+
 ## Active Members:
 
 Active members are currently enrolled with the team, or were enrolled in the
@@ -53,6 +57,26 @@ the project and develop valuable technical skills.
 
 ### VIP
 
-* Gabrielle Lim
+* Auryn Yamamura
+
+* Aneesh Maganti
+
+* Ben Bayor
+
+* Carlos Perez-Guzman
+
+* Suryachandra Malleswarapu
 
 * Kevin Yap
+
+* Kyle Liu
+
+* Nathaniel Sehati
+
+* Pingchuan Dong
+
+* Qihang Wu
+
+* Thu Vu
+
+* Xingzhi Dai
