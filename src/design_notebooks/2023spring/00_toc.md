@@ -4,7 +4,7 @@
 
   * [Aniket Kriplani](ak9100.md)
 
-  * [Gabrielle Lim](gil2011.md)
+  * [Rielle Lim](gil2011.md)
 
   * [Krzystof Chciuk](kc3977.md)
 
