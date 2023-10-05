@@ -25,8 +25,7 @@ Many of the individual modules that make up the core have been [outlined](https:
 in detail for easier implementation so you can get started writing Verilog code 
 right away. You can find out development and testing guidelines [here](https://github.com/NYU-Processor-Design/nyu-core/blob/main/Documentation/Dev-and-Test-Docs/dev-test-process.md).
 We also have interfaces between modules that need to be built. More information 
-can be found [here](https://github.com/orgs/NYU-Processor-Design/projects/4) on 
-the issues pages of the modules in the needs to be interfaced section.
+can be found [here](https://github.com/orgs/NYU-Processor-Design/projects/4).
 
 For those with more advanced skills and seeking a deeper level of involvement on
 the core design itself, many of the modules that make up the core have yet to be 
@@ -54,7 +53,7 @@ Our SoC's memory is an experiment in using [OpenRAM](https://openram.org/),
 an open-source RAM compiler. As part of the team, you will be expected to
 become an _expert_ in OpenRAM and how it interacts with our chip.
 
-As it stands, we have RAM and ROM generations scripts, but they need to be
+As it stands, we have RAM and ROM generation scripts, but they need to be
 thoroughly tested and deciphered. If you wish to work on memory, reach out 
 to leadership since the team is currently defunct. 
 
@@ -83,7 +82,7 @@ If working on AMBA speaks to you, read more about it [here](https://github.com/N
 
 <!-- 
 ### Simulator
-Every processor needs it's own simulator for verification. 
+Every processor needs its own simulator for verification. 
 
 ### Software
 What good is a processor without software that can run on it?
