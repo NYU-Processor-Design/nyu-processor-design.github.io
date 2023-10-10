@@ -91,8 +91,14 @@ What good is a processor without software that can run on it?
 
 ### Onboarding/Documentation
 A project of this magnitude needs thorough technical documentation for the sake
-of future team members and strangers who wish to see our work. You will work
-closely with other teams to document their work...
+of future team members and strangers who wish to see our work. Documentation 
+includes writing module and interface templates, development guides, improving 
+onboarding labs and the team's website, and other written issues that don't 
+directly involve coding/Verilog. 
+
+It is strongly recommended that you join a development team such as Core, Memory 
+or AMBA as well as working on documentation. You can be responsible for that team's 
+docs while also contributing to component development.
 
 ### Something Else Entirely
 You can work on things that our team has never worked on before, such as, 
