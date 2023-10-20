@@ -25,7 +25,7 @@
   - [Week 4: Verification Toolchain](getting_started/onboarding/05_verification2.md)
   - [Week 5: Advanced System Verilog](getting_started/onboarding/06_advanced_sv.md)
   - [Week 6: Packaging and Dependency Management](getting_started/onboarding/07_dependencies.md)
-  - [Week 7: Processor Design](getting_started/onboarding/08_cpu.md)
+  - [Week 7: Becoming a Processor Designer](getting_started/onboarding/08_paths.md)
   - [Week 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
 # Design Notebooks
 - [Spring 2023](design_notebooks/2023spring/00_toc.md)
