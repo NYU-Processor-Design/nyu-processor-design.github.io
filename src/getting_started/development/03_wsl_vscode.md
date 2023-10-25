@@ -72,7 +72,7 @@ Processor Design Team**.
 ---
 
 ## Upgrading the Ubuntu Version
-By default, WSL only has LTS (Long-term support) versions available.
+By default, WSL only has [LTS](https://wiki.ubuntu.com/LTS) (Long-term support) versions available. This doesn't work for us because we want to use more up to date packages that are only available in more recent versions.
 
 - The first step is to switch from the LTS branch to the normal Ubuntu branch
   ```console
