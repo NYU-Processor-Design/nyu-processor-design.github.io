@@ -16,6 +16,6 @@
 
 7. [Packaging and Dependency Management](07_dependencies.md)
 
-8. [Processor Design](08_cpu.md)
+8. [Becoming a Processor Designer](08_paths.md)
 
 9. [Advanced Processor Design](09_cpu2.md)
