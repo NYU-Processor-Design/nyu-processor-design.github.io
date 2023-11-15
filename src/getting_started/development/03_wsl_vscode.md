@@ -71,6 +71,26 @@ Processor Design Team**.
 
 ---
 
+## Upgrading the Ubuntu Version
+By default, WSL only has [LTS](https://wiki.ubuntu.com/LTS) (Long-term support) versions available. This doesn't work for us because we want to use more up to date packages that are only available in more recent versions.
+
+- The first step is to switch from the LTS branch to the normal Ubuntu branch
+  ```console
+  sudo sed 's/lts/normal/g' /etc/update-manager/release-upgrades
+  ```
+- Next, the package sources need to be pointed to lunar instead of jammy.
+  ```console
+  sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
+  ```
+- Once the sources are updated, the existing packages must be upgraded to the new version. This can take several minutes to complete.
+  ```
+  sudo apt update
+  sudo apt upgrade
+  sudo apt dist-upgrade
+  ```
+### Troubleshooting
+
+- If the second sed command fails, you might want to open sources.list and see a line like this `deb http://archive.ubuntu.com/ubuntu/ jammy main restricted`. If instead of jammy, it says `focal` or `bionic`, switch `s/jammy/lunar/g` to `s/focal/lunar/g` (or bionic if you are using that).
 ## Installing Packages (Ubuntu)
 - The installation command for Ubuntu is
   ```console
@@ -125,7 +145,6 @@ this alternative[^cmake].
   sudo apt update
   sudo apt install cmake
   ```
-  
 ### Verilator  
 ```console
 sudo apt install verilator
@@ -237,6 +256,7 @@ sudo apt install git
 
 - Ubuntu's [documentation](https://ubuntu.com/wsl) about Ubuntu on WSL
 
+- TroubleChute's [documentation](https://hub.tcno.co/linux/tips/update-23-04/) on how to update Ubuntu from one release to another.
 ---
 
 [^hypervisor]: A [hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html?resource=cat-1299087558#cat-1299087558) 
