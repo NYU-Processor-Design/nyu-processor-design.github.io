@@ -2,11 +2,15 @@
 
 ---
 
+## Important Note
+
+This lab is currently incomplete as the Lab Week 5 Repo does not currently exist nor does the exercise for this lab. You should read over the information provided in this lab and then move on to [Lab Week 7](https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/blob/lab7/src/getting_started/onboarding/08_paths.md) for details on what to do next.
+
 ## Purpose
 
-System Verilog is a large language, but the we have almost covered all of
+System Verilog is a large language, but we have almost covered all of
 the _synthesizable_ elements (meaning, "stuff that can be turned into hardware")
-already. Non-synthesizable parts of the langauge are used for design
+already. Non-synthesizable parts of the language are used for design
 verification. Since the **Processor Design Team** uses C++ for performing design
 verification, we won't concern ourselves with the parts of System Verilog that
 cannot be synthesized.
