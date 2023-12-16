@@ -90,7 +90,7 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
 2. Download the latest version of VirtualBox
 
 ## Downloading the VM
-1. Go [here](https://drive.google.com/drive/folders/1vzB0ra_1gFrapqpwCEHLpuZI6Ekn0mpw?usp=share_link)
+1. Go [here](https://drive.google.com/drive/folders/1XGmIeK4Qg0EsC6KAXhLYsuHv3kSDx7A4?usp=sharing)
 
 2. Download the `.ova` file
    - OVA stands for Open Virtualisation Appliance
