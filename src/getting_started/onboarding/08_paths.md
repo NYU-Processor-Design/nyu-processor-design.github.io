@@ -1,4 +1,4 @@
-# Week 7: Becoming a Processor Designer
+# Lab 7: Becoming a Processor Designer
 
 ---
 <span style="font-family: 'Times New Roman'; font-size: 3em;">*"Procezzor"*</span>
