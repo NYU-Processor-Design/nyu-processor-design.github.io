@@ -1,4 +1,4 @@
-# Week 5: Advanced System Verilog
+# Lab 5: Advanced System Verilog
 
 ---
 
