@@ -1,4 +1,4 @@
-# Week 4: Verification Toolchain
+# Lab 4: Verification Toolchain
 
 ---
 
