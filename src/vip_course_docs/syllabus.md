@@ -18,7 +18,7 @@ to drop into my personal meeting room.
 
 | Day(s) |  Hours | Zoom Link
 ---------|--------|-----------
-|Tue/Thr |6:30 - 7:30PM | TBA
+|Tue/Thr |2 - 3PM | TBA
 |  N/A   |  Appt  | [https://nyu.zoom.us/j/6751151114](https://nyu.zoom.us/j/6751151114)
 
 ## Course Prerequisites
