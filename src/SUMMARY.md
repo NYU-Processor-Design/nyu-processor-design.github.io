@@ -58,3 +58,4 @@
   - [Thu Vu](design_notebooks/2023fall/tnv2002.md)
   - [Uma Nachiappan](design_notebooks/2023fall/un2021.md)
   - [Xingzhi Dai](design_notebooks/2023fall/xd2305.md)
+- [Spring 2024](design_notebooks/2024spring/00_toc.md)
