@@ -6,7 +6,7 @@
 - [Syllabus](vip_course_docs/syllabus.md)
 - [Project Membership](vip_course_docs/membership.md)
 # Getting Started
-- [Design Notebook Guide](getting_started/notebooks/00_toc.md)
+- [Design Notebooks and Git](getting_started/notebooks/00_toc.md)
   - [Your First Design Notebook](getting_started/notebooks/01_first_design.md)
   - [Getting Started With Git](getting_started/notebooks/02_git.md)
   - [Working With Your Repo](getting_started/notebooks/03_dev_workflow.md)
