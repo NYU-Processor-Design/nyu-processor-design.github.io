@@ -1,10 +1,10 @@
-# Week 5: Advanced System Verilog
+# Lab 5: Advanced System Verilog
 
 ---
 
 ## Important Note
 
-This lab is currently incomplete as the Lab Week 5 Repo does not currently exist nor does the exercise for this lab. You should read over the information provided in this lab and then move on to [Lab Week 7](https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/blob/lab7/src/getting_started/onboarding/08_paths.md) for details on what to do next.
+This lab is currently incomplete as the Lab Week 5 Repo does not currently exist nor does the exercise for this lab. You should read over the information provided in this lab and then move on to [Lab 7](https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/blob/lab7/src/getting_started/onboarding/08_paths.md) for details on what to do next.
 
 ## Purpose
 

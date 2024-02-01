@@ -1,4 +1,4 @@
-# Week 1: CMake and Toolchain
+# Lab 1: CMake and Toolchain
 
 ---
 
