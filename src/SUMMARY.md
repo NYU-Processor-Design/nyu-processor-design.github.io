@@ -65,5 +65,6 @@
   - [Rielle Lim](design_notebooks/2024spring/gil2011.md)
   - [Kevin Guo](design_notebooks/2024spring/hg2622.md)
   - [Michael Lippe](design_notebooks/2024spring/ml7238.md)
+  - [Pingchuan Dong](design_notebooks/2024spring/pd2170.md)
   - [Uma Nachiappan](design_notebooks/2024spring/un2021.md)
   - [Xingzhi Dai](design_notebooks/2024spring/xd2305.md)

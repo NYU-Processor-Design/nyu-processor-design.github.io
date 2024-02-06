@@ -14,6 +14,8 @@
 
   * [Michael Lippe](ml7238.md)
 
+  * [Pingchuan Dong](pd2170.md)
+
   * [Uma Nachiappan](un2021.md)
 
   * [Xingzhi Dai](xd2305.md)
