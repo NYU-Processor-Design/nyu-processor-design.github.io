@@ -66,3 +66,4 @@
   - [Kevin Guo](design_notebooks/2024spring/hg2622.md)
   - [Michael Lippe](design_notebooks/2024spring/ml7238.md)
   - [Uma Nachiappan](design_notebooks/2024spring/un2021.md)
+  - [Xingzhi Dai](design_notebooks/2024spring/xd2305.md)
