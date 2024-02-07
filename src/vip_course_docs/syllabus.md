@@ -16,10 +16,11 @@ VIP students. That said, my office hours aren't busy 90% of the time so don't
 hesitate to drop in if you have a question. Email or ping me in the discord
 to drop into my personal meeting room.
 
-| Day(s) |  Hours | Zoom Link
----------|--------|-----------
-|Tue/Thr |2 - 3PM | TBA
-|  N/A   |  Appt  | [https://nyu.zoom.us/j/6751151114](https://nyu.zoom.us/j/6751151114)
+| Day(s) |    Hours   | Zoom Link
+---------|------------|-----------
+|  Tue   | 11AM - 1PM | [Link](https://nyu.zoom.us/j/97663135578)
+|Tue/Thr |    2 - 3PM | [Link](https://nyu.zoom.us/j/94477590439)
+|  N/A   |     Appt   | [Link](https://nyu.zoom.us/j/6751151114)
 
 ## Course Prerequisites
 
