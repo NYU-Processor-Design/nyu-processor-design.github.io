@@ -59,5 +59,6 @@ the project and develop valuable technical skills.
   * Rielle Lim
   * James Jin
   * Kevin Guo
+  * Kyle Liu
   * Pingchuan Dong
   * Xingzhi Dai
