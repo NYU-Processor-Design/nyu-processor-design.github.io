@@ -53,6 +53,7 @@ the project and develop valuable technical skills.
 
 ### VIP
 
+  * Aditya Joshi
   * Cameron Bedard
   * Fatima Farooq
   * Geoffrey Guindine

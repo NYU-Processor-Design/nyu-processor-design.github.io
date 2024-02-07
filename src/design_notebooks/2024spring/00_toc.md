@@ -1,6 +1,7 @@
 # Spring 2024 Design Notebooks
 
 ---
+  * [Aditya Joshi](aj4128.md)
 
   * [Cameron Bedard](cb5179.md)
 
