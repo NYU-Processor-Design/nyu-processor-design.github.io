@@ -14,6 +14,8 @@
 
   * [Kevin Guo](hg2622.md)
 
+  * [Joshua Cho](jsc9820.md)
+
   * [Kyle Liu](kl4402.md)
 
   * [Michael Lippe](ml7238.md)

@@ -65,6 +65,7 @@
   - [Rielle Lim](design_notebooks/2024spring/gil2011.md)
   - [James Jin](design_notebooks/2024spring/gj2148.md)
   - [Kevin Guo](design_notebooks/2024spring/hg2622.md)
+  - [Joshua Cho](design_notebooks/2024spring/jsc9820.md)
   - [Kyle Liu](design_notebooks/2024spring/kl4402.md)
   - [Michael Lippe](design_notebooks/2024spring/ml7238.md)
   - [Pingchuan Dong](design_notebooks/2024spring/pd2170.md)
