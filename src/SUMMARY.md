@@ -63,6 +63,7 @@
   - [Fatima Farooq](design_notebooks/2024spring/ff2137.md)
   - [Geoffrey Guindine](design_notebooks/2024spring/gg2692.md)
   - [Rielle Lim](design_notebooks/2024spring/gil2011.md)
+  - [James Jin](design_notebooks/2024spring/gj2148.md)
   - [Kevin Guo](design_notebooks/2024spring/hg2622.md)
   - [Michael Lippe](design_notebooks/2024spring/ml7238.md)
   - [Pingchuan Dong](design_notebooks/2024spring/pd2170.md)

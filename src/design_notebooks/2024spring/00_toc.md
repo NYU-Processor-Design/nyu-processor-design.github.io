@@ -10,6 +10,8 @@
 
   * [Rielle Lim](gil2011.md)
 
+  * [James Jin](gj2148.md)
+
   * [Kevin Guo](hg2622.md)
 
   * [Michael Lippe](ml7238.md)

@@ -57,6 +57,7 @@ the project and develop valuable technical skills.
   * Fatima Farooq
   * Geoffrey Guindine
   * Rielle Lim
+  * James Jin
   * Kevin Guo
   * Pingchuan Dong
   * Xingzhi Dai
