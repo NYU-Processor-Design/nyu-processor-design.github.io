@@ -53,6 +53,10 @@ the project and develop valuable technical skills.
 
 ### VIP
 
-* Gabrielle Lim
-
-* Kevin Yap
+  * Cameron Bedard
+  * Fatima Farooq
+  * Geoffrey Guindine
+  * Rielle Lim
+  * Kevin Guo
+  * Pingchuan Dong
+  * Xingzhi Dai
