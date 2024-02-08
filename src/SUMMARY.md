@@ -59,6 +59,7 @@
   - [Uma Nachiappan](design_notebooks/2023fall/un2021.md)
   - [Xingzhi Dai](design_notebooks/2023fall/xd2305.md)
 - [Spring 2024](design_notebooks/2024spring/00_toc.md)
+  - [Vito Gamberini](design_notebooks/2024spring/nvg7278.md)
   - [Aditya Joshi](design_notebooks/2024spring/aj4128.md)
   - [Cameron Bedard](design_notebooks/2024spring/cb5179.md)
   - [Fatima Farooq](design_notebooks/2024spring/ff2137.md)
