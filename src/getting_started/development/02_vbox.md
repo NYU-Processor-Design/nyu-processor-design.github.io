@@ -2,6 +2,10 @@
 
 ---
 
+_Last updated February 7, 2024_
+
+--- 
+
 VirtualBox (VBox) is a popular hypervisor[^hypervisor] for x86
 virtualisation. It allows you to create **virtual machines**, which are
 effectively emulations of computers on your computer. This allows you 
@@ -36,10 +40,9 @@ This guide will help you use the provided VM configuration with VBox.
 
 ## Minimum Requirements
 - **CPU:** Any reasonably powerful 64-bit x86 processor  
-  (fancy way to say "most modern computers")
+  (fancy for "most modern computers")
 
 - **Memory:** 8 GB RAM  
-  (the VM uses 4 GB)
 
 - **Disk Space:** 16 GB available space  
   (Virtual hard disks are dynamic and grow with usage. You do not 
@@ -62,22 +65,22 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
 - The provided VM is set up for VirtualBox >7.0.0, which means it is
   guaranteed to work with any version of VBox after 7.0.0
 
-- Currently, VirtualBox is on 7.0.1, as of writing this guide
+- Currently, VirtualBox is on 7.0.14, as of writing this guide
 
-- The VM is set up with [Ubuntu Desktop 22.04.1 LTS](https://releases.ubuntu.com/22.04/)
+- The VM is set up with [Ubuntu Desktop 23.10 Mantic Minotaur](https://ubuntu.com/blog/ubuntu-desktop-23-10-mantic-minotaur-deep-dive)
 
 - The VM contains all tools you need to begin working *right away*
 
 ### Specifications
-- **OS:** Ubuntu Desktop 22.04.1 LTS[^lts]
+- **OS:** Ubuntu Desktop 23.10
 
-- **Processors:** 2 processors
+- **Processors:** 4 processors
 
-- **Memory:** 4 GB RAM
+- **Memory:** 6 GB RAM
 
 - **Disk Space:** 16 GB
 
-- **Appliance Size[^appliance]:** 7 GB
+- **Appliance Size[^appliance]:** 8 GB
 
 **Note:** You can edit these later to your desire if your computer has more
           resources to allocate to the VM.
@@ -124,7 +127,7 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
 
 - Enter the password "processor" and hit <kbd>Enter</kbd>/<kbd>Return</kbd>
 
-- You will now be presented with the Ubuntu homescreen
+- You will now be presented with the Ubuntu homescreen (the wallpaper might be different)
 <img src="/images/vbox/login3.png" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 ## Homescreen
@@ -151,9 +154,9 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
     worry about breaking it so play around
   - Worst case: Just re-install the VM
   - **Word of advice:** It's best to stay away from playing 
-    with root, bad things can happen
+    with root, [bad things can happen](https://rishyak.com/plagiarising-someones-story-to-share-with-my-team/)
 
-- Although, it is reccomended that you change the password
+- Although, it is recommended that you change the password
   - You can do so through settings or by opening the terminal
     and typing:
   ```console
@@ -214,8 +217,6 @@ encouraged to look at the [Homebrew Installation Guide](01_homebrew.md).
 
 [^hypervisor]: A [hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html?resource=cat-1299087558#cat-1299087558) 
 is software that runs and monitors virtual machines   
-
-[^lts]: LTS stands for Long Term Support   
 
 [^appliance]: The file contains everything you need to begin working,
 hence the size   
