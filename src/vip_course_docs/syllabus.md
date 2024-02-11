@@ -22,6 +22,15 @@ to drop into my personal meeting room.
 |Tue/Thr |    2 - 3PM | [Link](https://nyu.zoom.us/j/94477590439)
 |  N/A   |     Appt   | [Link](https://nyu.zoom.us/j/6751151114)
 
+**Krzysztof's Office Hours**
+
+Same as above, but also available in person in LC023(Dibner Dungeons)
+
+| Day(s) |    Hours     | Mode
+---------|--------------|-----------
+|  Mon   | 2PM - 3:30PM | In-person or Discord
+|  Tue   | 11AM - 12PM  | In-person or [Zoom](https://nyu.zoom.us/j/92779684824)
+
 ## Course Prerequisites
 
 Students must be pursuing their undergraduate or graduate degree at NYU in order
