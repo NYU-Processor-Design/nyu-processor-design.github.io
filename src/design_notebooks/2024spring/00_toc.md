@@ -5,6 +5,8 @@
 
   * [Cameron Bedard](cb5179.md)
 
+  * [Darren Kuo](dk4461.md)
+
   * [Fatima Farooq](ff2137.md)
 
   * [Geoffrey Guindine](gg2692.md)

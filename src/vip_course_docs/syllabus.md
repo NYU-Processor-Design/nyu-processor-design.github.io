@@ -24,7 +24,7 @@ to drop into my personal meeting room.
 
 **Krzysztof's Office Hours**
 
-Same as above, but also available in person in LC023(Dibner Dungeons)
+Same as above, but also available in person in LC023 (Dibner Dungeons)
 
 | Day(s) |    Hours     | Mode
 ---------|--------------|-----------

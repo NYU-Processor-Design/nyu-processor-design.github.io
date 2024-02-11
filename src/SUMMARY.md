@@ -61,6 +61,7 @@
 - [Spring 2024](design_notebooks/2024spring/00_toc.md)
   - [Aditya Joshi](design_notebooks/2024spring/aj4128.md)
   - [Cameron Bedard](design_notebooks/2024spring/cb5179.md)
+  - [Darren Kuo](design_notebooks/2024spring/dk4461.md)
   - [Fatima Farooq](design_notebooks/2024spring/ff2137.md)
   - [Geoffrey Guindine](design_notebooks/2024spring/gg2692.md)
   - [Rielle Lim](design_notebooks/2024spring/gil2011.md)
