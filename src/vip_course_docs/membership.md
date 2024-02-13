@@ -63,5 +63,6 @@ the project and develop valuable technical skills.
   * Kevin Guo
   * Joshua Cho
   * Kyle Liu
+  * Leen Kharouf
   * Pingchuan Dong
   * Xingzhi Dai
