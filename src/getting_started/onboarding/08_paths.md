@@ -4,7 +4,7 @@
 <span style="font-family: 'Times New Roman'; font-size: 3em;">*"Procezzor"*</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 1em; align: right">
-~ Someone, sometime, somewhere, probably.
+~ Someone, somewhere, sometime, probably.
 </span>
 
 ---
