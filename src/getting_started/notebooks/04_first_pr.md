@@ -100,7 +100,7 @@ You can do this with:
 ```
 git switch main
 git branch -D branch_name
-git push origin -D branch_name
+git push origin -d branch_name
 ```
 
 The first command switches off of the development branch, because you cannot
