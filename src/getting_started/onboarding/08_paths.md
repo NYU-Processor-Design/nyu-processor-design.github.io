@@ -23,7 +23,7 @@ the design and implementation of a CPU core capable of executing the
 
 Many of the individual modules that make up the core have been [outlined](https://github.com/NYU-Processor-Design/nyu-core/tree/main/Documentation/Module-Docs) 
 in detail for easier implementation so you can get started writing Verilog code 
-right away. You can find out development and testing guidelines [here](https://github.com/NYU-Processor-Design/nyu-core/blob/main/Documentation/Dev-and-Test-Docs/dev-test-process.md).
+right away. You can find our getting started guide [here](https://github.com/NYU-Processor-Design/nyu-core/blob/main/Documentation/00_Dev_and_Test_Docs/00_Getting_Started_with_Core.md).
 We also have interfaces between modules that need to be built. More information 
 can be found [here](https://github.com/orgs/NYU-Processor-Design/projects/4).
 
