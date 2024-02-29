@@ -2,8 +2,6 @@
 
 ---
 
-LINKS TO BE UPDATED
-
 1. [Getting Started With Git](01_git.md)
 
 2. [Working With Your Repo](02_navigating_repos.md)
