@@ -2,6 +2,8 @@
 
 ---
 
+LINKS TO BE UPDATED
+
 1. [Your First Design Notebook](01_first_design.md)
 
 2. [Getting Started With Git](02_git.md)
