@@ -4,7 +4,7 @@
 <span style="font-family: 'Times New Roman'; font-size: 3em;">*"Procezzor"*</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 1em; align: right">
-~ Someone, sometime, somewhere, probably.
+~ Someone, somewhere, sometime, probably.
 </span>
 
 ---
@@ -21,9 +21,9 @@ The heart of an SoC is the CPU Core. As part of the core team, you will work on
 the design and implementation of a CPU core capable of executing the 
 [RISC-V-32I instruction set](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf). 
 
-Many of the individual modules that make up the core have been [outlined](https://github.com/NYU-Processor-Design/nyu-core/tree/main/Documentation/Module-Docs) 
+Many of the individual modules that make up the core have been [outlined](https://github.com/NYU-Processor-Design/nyu-core/tree/main/Documentation/01_Module_Docs) 
 in detail for easier implementation so you can get started writing Verilog code 
-right away. You can find out development and testing guidelines [here](https://github.com/NYU-Processor-Design/nyu-core/blob/main/Documentation/Dev-and-Test-Docs/dev-test-process.md).
+right away. You can find our getting started guide [here](https://github.com/NYU-Processor-Design/nyu-core/blob/main/Documentation/00_Dev_and_Test_Docs/00_Getting_Started_with_Core.md).
 We also have interfaces between modules that need to be built. More information 
 can be found [here](https://github.com/orgs/NYU-Processor-Design/projects/4).
 
@@ -41,7 +41,7 @@ you'll need to be ready to validate and troubleshoot both, your designs and the
 designs of others. You can see the block diagram of the current core design on 
 the [repository](https://github.com/NYU-Processor-Design/nyu-core), and you can 
 find the functionality and design documentation for the more complex components 
-[here](https://github.com/NYU-Processor-Design/nyu-core/tree/main/Documentation/Complex-Module-Functions).
+[here](https://github.com/NYU-Processor-Design/nyu-core/tree/main/Documentation/02_Complex_Module_Functions).
 
 ### [Memory](https://github.com/NYU-Processor-Design/nyu-mem)
 An SoC needs memory. As part of the memory team, you will work on the memory
