@@ -1,6 +1,8 @@
 # Spring 2024 Design Notebooks
 
 ---
+  * [Auryn Yamamura](aay268.md)
+
   * [Aditya Joshi](aj4128.md)
 
   * [Cameron Bedard](cb5179.md)
@@ -18,6 +20,8 @@
   * [Kevin Guo](hg2622.md)
 
   * [Joshua Cho](jsc9820.md)
+
+  * [Krzystof Chciuk](kc3977.md)
 
   * [Kyle Liu](kl4402.md)
 
