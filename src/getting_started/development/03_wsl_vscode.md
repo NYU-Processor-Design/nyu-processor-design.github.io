@@ -74,13 +74,23 @@ Processor Design Team**.
 ## Upgrading the Ubuntu Version
 By default, WSL only has [LTS](https://wiki.ubuntu.com/LTS) (Long-term support) versions available. This doesn't work for us because we want to use more up to date packages that are only available in more recent versions.
 
+- If the second sed command fails, you might want to open `sources.list` and see a line like this `deb http://archive.ubuntu.com/ubuntu/ jammy main restricted`. If instead of jammy, it says `focal` or 
+
+Before you begin, open `sources.list`, and find a line like `deb 
+http://archive.ubuntu.com/ubuntu/ jammy main restricted`. If instead of `jammy`, 
+you see `focal` or `bionic`, switch `jammy` to `focal` or `bionic` in the commands
+below.
+  ```console
+  cat /etc/apt/sources.list
+  ```
+
 - The first step is to switch from the LTS branch to the normal Ubuntu branch
   ```console
   sudo sed 's/lts/normal/g' /etc/update-manager/release-upgrades
   ```
 - Next, the package sources need to be pointed to lunar instead of jammy.
   ```console
-  sudo sed -i `s/jammy/lunar/g` /etc/apt/sources.list
+  sudo sed -i 's/jammy/lunar/g' /etc/apt/sources.list
   ```
 - Once the sources are updated, the existing packages must be upgraded to the new version. This can take several minutes to complete.
   ```
@@ -88,9 +98,10 @@ By default, WSL only has [LTS](https://wiki.ubuntu.com/LTS) (Long-term support) 
   sudo apt upgrade
   sudo apt dist-upgrade
   ```
+
 ### Troubleshooting
 
-- If the second sed command fails, you might want to open sources.list and see a line like this `deb http://archive.ubuntu.com/ubuntu/ jammy main restricted`. If instead of jammy, it says `focal` or `bionic`, switch `s/jammy/lunar/g` to `s/focal/lunar/g` (or bionic if you are using that).
+
 ## Installing Packages (Ubuntu)
 - The installation command for Ubuntu is
   ```console
@@ -100,7 +111,7 @@ By default, WSL only has [LTS](https://wiki.ubuntu.com/LTS) (Long-term support) 
     and install it in your system.
   - You can list multiple package names in one command, for example:
     ```console
-    sudo apt install cmake verilator clang-format
+    sudo apt install verilator clang-format
     ```
 
 ### CMake

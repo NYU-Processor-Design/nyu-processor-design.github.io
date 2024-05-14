@@ -53,6 +53,16 @@ the project and develop valuable technical skills.
 
 ### VIP
 
-* Gabrielle Lim
-
-* Kevin Yap
+  * Aditya Joshi
+  * Cameron Bedard
+  * Darren Kuo
+  * Fatima Farooq
+  * Geoffrey Guindine
+  * Rielle Lim
+  * James Jin
+  * Kevin Guo
+  * Joshua Cho
+  * Kyle Liu
+  * Leen Kharouf
+  * Pingchuan Dong
+  * Xingzhi Dai
