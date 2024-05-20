@@ -10,7 +10,7 @@ team requirements.
 
 **Faculty Advisor:** Ratan Dey
 
-**Team Lead:** Vito Gamberini
+**Team Lead:** Uma Nachiappan
 
 **Project Manager:** Krzysztof Chciuk
 
