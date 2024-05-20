@@ -76,3 +76,5 @@
   - [Pingchuan Dong](design_notebooks/2024spring/pd2170.md)
   - [Uma Nachiappan](design_notebooks/2024spring/un2021.md)
   - [Xingzhi Dai](design_notebooks/2024spring/xd2305.md)
+
+[Papers](Papers.md)
