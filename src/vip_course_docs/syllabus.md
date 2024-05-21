@@ -11,7 +11,7 @@
 
 **Uma's Office Hours**
 
-My office hours are shared with other classes, who will take priority over
+My office hours are shared with other classes, which will take priority over
 VIP students. That said, my office hours aren't busy 90% of the time so don't
 hesitate to drop in if you have a question. Email or ping me in the discord
 to drop into my personal meeting room.
@@ -36,7 +36,7 @@ to enroll in a VIP course. Enrollment is based on a rolling application process
 through the course website. Decisions on acceptance to the course will be made
 by the faculty advisors. New student decisions are made by the beginning of each
 semester. Students may apply to various VIP course options (i.e., VIP teams),
-then select one VIP team to participate on for three consecutive semesters.
+and then select one VIP team to participate in for three consecutive semesters.
 
 ***For the Processor Design team:*** Applicants should have completed CS-UY 2214
 or ECE-UY 2204 or have equivalent experience with RTL design. Team participation
@@ -101,8 +101,13 @@ The team seeks to attain the following outcomes for participants:
 
 ## Project Structure
 
-This VIP team does not have designated sub-teams. A single team-wide meeting
-will be held weekly at a time determined by participant schedules.
+This VIP team consists of six sub-teams, Core, AMBA, Memory, Simulator, Software, 
+and Docs. Each sub-team has a dedicated Czar responsible for that team's part of the 
+overall technology stack. Team members may join multiple sub-teams and are encouraged
+to do so if desired while also ensuring they are not spread too thin. 
+
+A single team-wide meeting will be held weekly at a time determined by participant schedules. 
+Sub-teams may hold additional meetings at the discretion of their respective Czar.
 
 ## Course Topics
 
@@ -142,7 +147,6 @@ semester.
 **Zero-credit enrollment:** Students may enroll in VIP for zero (0) credits on
 a case-by-case basis to address issues of enrollment limitations (e.g., credit
 limits). This enrollment option can only be used up to 2 times.
-
 
 ### Weekly Meetings
 
