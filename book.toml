@@ -1,5 +1,5 @@
 [book]
-authors = ["Vito Gamberini"]
+authors = ["NYU ProcDesign Team"]
 language = "en"
 multilingual = false
 src = "src"
@@ -7,7 +7,7 @@ title = "NYU Processor Design Documentation"
 
 [output.html]
 default-theme = "ayu"
-curly-quotes = true
+smart-punctuation = true
 git-repository-url = "https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/tree/main"
 edit-url-template = "https://github.com/NYU-Processor-Design/nyu-processor-design.github.io/tree/main/{path}"
 
