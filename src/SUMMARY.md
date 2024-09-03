@@ -12,7 +12,7 @@
   - [Your First Pull Request](getting_started/notebooks/03_first_pr.md)
   - [Your First Design Notebook](getting_started/notebooks/04_first_design.md)
   - [Working Collaborativley](getting_started/notebooks/05_collab.md)
-- [Development Environment](getting_started/onboarding/00_toc.md)
+- [Development Environment](getting_started/development/00_toc.md)
   - [Mac: Homebrew Installation](getting_started/development/01_homebrew.md)
   - [VirtualBox Guide](getting_started/development/02_vbox.md)
   - [Windows: WSL Installation](getting_started/development/03_wsl_vscode.md)
@@ -28,6 +28,8 @@
   - [Lab 7: Becoming a Processor Designer](getting_started/onboarding/08_paths.md)
   - [Lab 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
 # Design Notebooks
+- [Fall 2024](design_notebooks/2024fall/00_toc.md)
+  - [Uma Nachiappan](design_notebooks/2024fall/un2021.md)
 - [Spring 2024](design_notebooks/2024spring/00_toc.md)
   - [Auryn Yamamura](design_notebooks/2024spring/aay268.md)
   - [Aditya Joshi](design_notebooks/2024spring/aj4128.md)
