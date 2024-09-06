@@ -31,6 +31,7 @@
 - [Fall 2024](design_notebooks/2024fall/00_toc.md)
   - [Dmitri Lyalikov](design_notebooks/2024fall/dvl2013.md)
   - [James Jin](design_notebooks/2024fall/gj2148.md)
+  - [James Xie](design_notebooks/2024fall/hx2227.md)
   - [Uma Nachiappan](design_notebooks/2024fall/un2021.md)
 - [Spring 2024](design_notebooks/2024spring/00_toc.md)
   - [Auryn Yamamura](design_notebooks/2024spring/aay268.md)
