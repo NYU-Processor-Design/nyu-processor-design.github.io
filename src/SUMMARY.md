@@ -33,6 +33,7 @@
   - [James Jin](design_notebooks/2024fall/gj2148.md)
   - [James Xie](design_notebooks/2024fall/hx2227.md)
   - [Uma Nachiappan](design_notebooks/2024fall/un2021.md)
+  - [Xhovani Mali](design_notebooks/2024fall/xxm202.md)
 - [Spring 2024](design_notebooks/2024spring/00_toc.md)
   - [Auryn Yamamura](design_notebooks/2024spring/aay268.md)
   - [Aditya Joshi](design_notebooks/2024spring/aj4128.md)
