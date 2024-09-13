@@ -9,6 +9,8 @@
 
   * [James Xie](hx2227.md)
 
+  * [Noah May-Smith](nm4207.md)
+
   * [Uma Nachiappan](un2021.md)
 
   * [Xhovani Mali](xxm202.md)
