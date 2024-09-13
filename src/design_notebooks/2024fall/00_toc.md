@@ -5,8 +5,6 @@
 
   * [Cameron Bedard](cb5179.md)
 
-  * [Joshua Cho](jsc9820.md)
-
   * [Darren Kuo](dk4461.md)
 
   * [Dmitri Lyalikov](dvl2013.md)
@@ -17,7 +15,11 @@
 
   * [James Xie](hx2227.md)
 
+  * [Joshua Cho](jsc9820.md)
+
   * [Noah Mays-Smith](nm4207.md)
+
+  * [Ruichan Gao](rg4238.md)
 
   * [Uma Nachiappan](un2021.md)
 
