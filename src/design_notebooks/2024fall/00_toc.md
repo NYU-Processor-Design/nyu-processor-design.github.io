@@ -9,7 +9,7 @@
 
   * [James Xie](hx2227.md)
 
-  * [Noah May-Smith](nm4207.md)
+  * [Noah Mays-Smith](nm4207.md)
 
   * [Uma Nachiappan](un2021.md)
 
