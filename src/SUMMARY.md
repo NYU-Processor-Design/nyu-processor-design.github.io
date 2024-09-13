@@ -29,6 +29,7 @@
   - [Lab 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
 # Design Notebooks
 - [Fall 2024](design_notebooks/2024fall/00_toc.md)
+  - [Ben Feng](design_notebooks/2024fall/zf2179.md)
   - [Dmitri Lyalikov](design_notebooks/2024fall/dvl2013.md)
   - [James Jin](design_notebooks/2024fall/gj2148.md)
   - [James Xie](design_notebooks/2024fall/hx2227.md)
