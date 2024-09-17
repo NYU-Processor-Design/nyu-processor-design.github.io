@@ -12,7 +12,7 @@ team requirements.
 
 **Team Lead:** Uma Nachiappan
 
-**Project Manager:** Krzysztof Chciuk
+**Finance Manager:** Rielle Lim
 
 ## Czars:
 
@@ -20,7 +20,7 @@ Czars own their respective parts of the technology stack. They have complete
 discretion to make technical decisions, review change requests, set iteration
 goals, and develop materials directly related to their objectives.
 
-**CPU:** Michael Lippe
+**CPU:** Cameron Bedard, Xingzhi Dai
 
 RISC-V core design
 
@@ -28,7 +28,7 @@ RISC-V core design
 
 Memory controller and bus design, and memory compiler integration
 
-**AMBA/Peripheral:** Rishyak Panchal
+**AMBA/Peripheral:** 
 
 Everything AMBA-related, and essential peripherals
 
@@ -53,16 +53,14 @@ the project and develop valuable technical skills.
 
 ### VIP
 
-  * Aditya Joshi
-  * Cameron Bedard
-  * Darren Kuo
-  * Fatima Farooq
-  * Geoffrey Guindine
-  * Rielle Lim
-  * James Jin
-  * Kevin Guo
   * Joshua Cho
+  * Ben Feng
+  * Ruichen Gao
+  * Darren Kuo
   * Kyle Liu
-  * Leen Kharouf
-  * Pingchuan Dong
-  * Xingzhi Dai
+  * Noah Mays-Smith
+  * Xhovani Mali
+  * James Jin
+  * Anurag Tadapaneni
+  * James Xie
+  * Dmitri Lyalikov

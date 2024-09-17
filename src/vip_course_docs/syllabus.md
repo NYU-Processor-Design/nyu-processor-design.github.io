@@ -18,16 +18,7 @@ to drop into my personal meeting room.
 
 | Day(s) |    Hours   | Zoom Link
 ---------|------------|-----------
-|  TBA   |     TBA    | TBA
-
-**Krzysztof's Office Hours**
-
-Same as above, but also available in person in LC023 (Dibner Dungeons)
-
-| Day(s) |    Hours     | Mode
----------|--------------|-----------
-|  Mon   | 2PM - 3:30PM | In-person or Discord
-|  Tue   | 11AM - 12PM  | In-person or [Zoom](https://nyu.zoom.us/j/92779684824)
+|Mon, Wed|  11am-12pm | [Zoom](https://nyu.zoom.us/j/92659371396)
 
 ## Course Prerequisites
 
