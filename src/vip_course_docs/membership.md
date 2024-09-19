@@ -1,4 +1,4 @@
-# Current Membership
+# Project Membership
 
 ---
 
@@ -51,8 +51,6 @@ most recent full semester. Each develops their own goals and works in
 conjunction with project leadership and czars to make sure those goals advance
 the project and develop valuable technical skills.
 
-### VIP
-
   * Joshua Cho
   * Ben Feng
   * Ruichen Gao
@@ -64,3 +62,23 @@ the project and develop valuable technical skills.
   * Anurag Tadapaneni
   * James Xie
   * Dmitri Lyalikov
+
+## Alumni:
+
+### Founders/Leads
+
+ * Vito Gamberini
+ * Rishyak Panchal
+ * Michael Lippe
+ * Krzystof Chciuk
+
+### Members
+
+ * Nicky Kriplani
+ * Kevin Yap
+ * Swarnashri Chandrashekar
+ * Siddharth Kandpal
+ * Sean Doyle
+ * Auryn Yamamura
+ * Aneesh Maganti
+ * Carlos Perez-Guzman
