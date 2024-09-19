@@ -5,6 +5,8 @@
 
   * [Dmitri Lyalikov](dvl2013.md)
 
+  * [Rielle Lim](gil2011.md)
+
   * [James Jin](gj2148.md)
 
   * [James Xie](hx2227.md)
