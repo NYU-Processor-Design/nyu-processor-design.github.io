@@ -35,7 +35,7 @@ What follows is generic guidance applicable to all of the Onboarding Labs
 
 * For the purposes of the design notebook, you will need to push the final state
   of a given lab directory to a repo. You can then link to this repo in your
-  design notebook, see [the Design Notebook Guide](../notebooks/01_first_design.md)
+  design notebook, see [the Design Notebook Guide](../notebooks/04_first_design.md)
   for more.
 
 * Labs may ask that you **Make Note** or **Answer the following** at various
