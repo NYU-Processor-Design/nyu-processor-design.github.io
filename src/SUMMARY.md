@@ -30,6 +30,7 @@
 # Design Notebooks
 - [Fall 2024](design_notebooks/2024fall/00_toc.md)
   - [Anu Tadapaneni](design_notebooks/2024fall/at4881.md)
+  - [Darren Kuo](design_notebooks/2024fall/dk4461.md)
   - [Dmitri Lyalikov](design_notebooks/2024fall/dvl2013.md)
   - [Rielle Lim](design_notebooks/2024fall/gil2011.md)
   - [James Jin](design_notebooks/2024fall/gj2148.md)
