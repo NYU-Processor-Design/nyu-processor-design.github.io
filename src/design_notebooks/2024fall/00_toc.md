@@ -3,6 +3,8 @@
 ---
   * [Anu Tadapeneni](at4881.md)
 
+  * [Darren Kuo](dk4461.md)
+
   * [Dmitri Lyalikov](dvl2013.md)
 
   * [Rielle Lim](gil2011.md)
