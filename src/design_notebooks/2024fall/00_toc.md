@@ -17,6 +17,8 @@
 
   * [Uma Nachiappan](un2021.md)
 
+  * [Xingzhi Dai](xd2305.md)
+
   * [Xhovani Mali](xxm202.md)
 
   * [Ben Feng](zf2179.md)

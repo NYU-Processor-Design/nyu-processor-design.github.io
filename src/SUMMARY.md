@@ -37,6 +37,7 @@
   - [James Xie](design_notebooks/2024fall/hx2227.md)
   - [Noah Mays-Smith](design_notebooks/2024fall/nm4207.md)
   - [Uma Nachiappan](design_notebooks/2024fall/un2021.md)
+  - [Xingzhi Dai](design_notebooks/2024fall/xd2305.md)
   - [Xhovani Mali](design_notebooks/2024fall/xxm202.md)
   - [Ben Feng](design_notebooks/2024fall/zf2179.md)
 - [Spring 2024](design_notebooks/2024spring/00_toc.md)
