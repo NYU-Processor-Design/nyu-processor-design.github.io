@@ -5,6 +5,8 @@
 
   * [Cameron Bedard](cb5179.md)
 
+  * [Joshua Cho](jsc9820.md)
+
   * [Darren Kuo](dk4461.md)
 
   * [Dmitri Lyalikov](dvl2013.md)
