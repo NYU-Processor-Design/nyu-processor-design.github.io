@@ -37,6 +37,7 @@
   - [James Jin](design_notebooks/2024fall/gj2148.md)
   - [James Xie](design_notebooks/2024fall/hx2227.md)
   - [Joshua Cho](design_notebooks/2024fall/jsc9820.md)
+  - [Kyle Liu](design_notebooks/2024fall/kl4402.md)
   - [Noah Mays-Smith](design_notebooks/2024fall/nm4207.md)
   - [Ruichan Gao](design_notebooks/2024fall/rg4238.md)
   - [Uma Nachiappan](design_notebooks/2024fall/un2021.md)
