@@ -17,6 +17,8 @@
 
   * [Joshua Cho](jsc9820.md)
 
+  * [Kyle Liu](kl4402.md)
+
   * [Noah Mays-Smith](nm4207.md)
 
   * [Ruichan Gao](rg4238.md)
