@@ -21,7 +21,7 @@ third-party components and libraries, code written by other people. To do this
 we use a tool called a **package manager**. In the **Process Design Team**, the
 package manager we use is called [vcpkg](https://vcpkg.io/). While `vcpkg` is
 nominally a package manager for C/C++ projects, it's suitable to be used with
-any collection of files including with our System Verilog projects.
+any collection of files including with our SystemVerilog projects.
 
 One of the dependencies we'll be interested in for the purposes of verification
 will be a test framework. A test framework provides utilities for running and
@@ -43,28 +43,29 @@ not yet written. We will need to add it ourselves.
 ## Registries
 
 A **registry** is a collection of information about **packages**, where packages
-are the source code files (System Verilog, C++, or even cmake files) that we wish
+are the source code files (SystemVerilog, C++, or even cmake files) that we wish
 to use in our project. We keep track of the registries we're using in a given
-project with the `vcpkg-configuration.json` file.
+project with the `vcpkg.json` file.
 
-If you look at the `vcpkg-configuration.json` file in the Lab 4 repo, you will
-find something that looks like the following:
+If you look at the `vcpkg.json` file in the Lab 4 repo, you will
+find something that looks like the following under `"vcpkg-configuration"`:
 
 ```
 {
   "default-registry": {
     "kind": "git",
-    "baseline": "b4f29c54450ddfc7efd2989cb9d32158ae291b40",
+    "baseline": "6046e48163a26252f7a8f4aa036cbdd9eb793c20",
     "repository": "https://github.com/microsoft/vcpkg.git"
   },
   "registries": []
 }
 ```
 
-This is a registry listing, a json file that tells `vcpkg` where to look for
+This is a registry listing, a json object that tells `vcpkg` where to look for
 packages. In this case, the only registry listed is the `default-registry`,
 which is where `vcpkg` will search if a requested package is not listed for
-any other registry. Here the `default-registry` is pointed at a git repo managed by Microsoft, which has many useful packages in it. The `registries` list, which
+any other registry. Here the `default-registry` is pointed at a git repo managed
+by Microsoft, which has many useful packages in it. The `registries` list, which
 would contain all other registries we wish to use, is empty.
 
 We will need to add a registry to the registry list. The required fields for a
@@ -116,8 +117,8 @@ tells `vcpkg` that this registry will provide every package that begins with
 
 ## Dependencies
 
-Now take a look at `vcpkg.json`, this file describes our project. It should
-look something like this:
+Now take a look at the rest of `vcpkg.json`, this file describes our project. It
+should look something like this:
 
 ```
 {
@@ -129,7 +130,10 @@ look something like this:
     "Vito Gamberini <vito@gamberini.email>"
   ],
   "license": "CC0-1.0",
-  "dependencies": []
+  "dependencies": [],
+  "vcpkg-configuration": {
+    ...
+  }
 }
 ```
 
@@ -139,7 +143,7 @@ where we'll list the packages we need `vcpkg` to fetch for us.
 The packages we'll need for this lab are:
 
 * `nyu-cmake`: Utility functions for `cmake`. These functions make working with
-  System Verilog more convenient
+  SystemVerilog more convenient
 
 * `catch2`: The catch2 test framework mentioned above
 
@@ -179,8 +183,8 @@ We're actually going to create a special kind of library called an ***interface
 library***. This differs slightly from a "normal" library because an interface
 library can consist of code and files that aren't compiled immediately.
 
-Our System Verilog files cannot be compiled directly, so they're a good fit for
-this style of library. To create our System Verilog library, add the following
+Our SystemVerilog files cannot be compiled directly, so they're a good fit for
+this style of library. To create our SystemVerilog library, add the following
 line to the CML:
 
 ```cmake
@@ -205,7 +209,7 @@ Now we can add code to the `rtl/CMakeLists.txt` file, and it will be run by
 `cmake` when it reaches the `add_subdirectory()` command.
 
 One of the important commands that the `nyu-cmake` package gives us is
-`nyu_add_sv()`, which lets us associate System Verilog files with a library (or
+`nyu_add_sv()`, which lets us associate SystemVerilog files with a library (or
 any other `cmake` "target").
 
 In the `rtl` CML file, add the following lines:
@@ -286,18 +290,18 @@ use the `add_executable()` command to create an executable named `tests` and
 the `target_sources()` command to add all the `.cpp` files in the `dv` directory
 as sources.
 
-We also need to associate the `lab4` System Verilog library to our executable.
+We also need to associate the `lab4` SystemVerilog library to our executable.
 We do this with the following command from the `nyu-util` package:
 
 ```cmake
 nyu_link_sv(tests PRIVATE lab4)
 ```
 
-This takes all the System Verilog files we associated with the `lab4` library,
+This takes all the SystemVerilog files we associated with the `lab4` library,
 and also associates them with our `tests` executable. But we still need to tell
 `cmake` what to do with these files.
 
-To transform a System Verilog file into a _model_, like the ones in Lab2 and
+To transform a SystemVerilog file into a _model_, like the ones in Lab2 and
 Lab3, we need to tell the `verilator` tool which modules we would like to be
 exposed for simulation. These exposed modules are called ***top modules***, and
 we'll need to tell `cmake` and `verilator` about them explicitly.
@@ -391,7 +395,7 @@ it using the same procedure used for the previous two labs.
 * What is a package?
 
 * What's the difference between an interface library and a "normal" library or
-executable? Can you think of any uses for this besides System Verilog files?
+executable? Can you think of any uses for this besides SystemVerilog files?
 (Think about source code used for generic programming)
 
 * What is a top module?
