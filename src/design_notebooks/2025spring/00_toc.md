@@ -1,6 +1,7 @@
 # Spring 2025 Design Notebooks
 
 ---
+  * [Cameron Bedard](cb5179.md)
 
   * [Darren Kuo](dk4461.md)
 
@@ -11,6 +12,10 @@
   * [James Xie](hx2227.md)
 
   * [Noah Mays-Smith](nm4207.md)
+
+  * [Srijan Yendluri](sy4417_dn.md)
+
+  * [Theo Frimpon-Manso](tfm281.md)
 
   * [Uma Nachiappan](un2021.md)
 
