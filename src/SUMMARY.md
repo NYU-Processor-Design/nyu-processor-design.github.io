@@ -33,6 +33,7 @@
   - [Darren Kuo](design_notebooks/2025spring/dk4461.md)
   - [Rielle Lim](design_notebooks/2025spring/gil2011.md)
   - [Hongtai Du](design_notebooks/2025spring/hd2609.md)
+  - [James Jin](design_notebooks/2025spring/gj2148.md)
   - [James Xie](design_notebooks/2025spring/hx2227.md)
   - [Noah Mays-Smith](design_notebooks/2025spring/nm4207.md)
   - [Srijan Yendluri](design_notebooks/2025spring/sy4417_dn.md)
