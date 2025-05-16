@@ -9,6 +9,8 @@
 
   * [Hongtai Du](hd2609.md)
 
+  * [James Jin](gj2148.md)
+
   * [James Xie](hx2227.md)
 
   * [Noah Mays-Smith](nm4207.md)
