@@ -8,6 +8,7 @@
 ---------------------|-----------------|--------------------|-----------------
 |   Course Advisor   |   Ratan Dey     |    ratan@nyu.edu   | By Appointment
 |     Team Lead      |   Darren Kuo    |   dk4461@nyu.edu   |   See Below
+|  Onboarding Lead   | Noah Mays-Smith |   nm4207@nyu.edu   |   See Below
 
 **Darren's Office Hours**
 
@@ -15,6 +16,20 @@ My office hours are shared with other classes, who will take priority over
 VIP students. That said, my office hours aren't busy 90% of the time so don't
 hesitate to drop in if you have a question. Email or ping me in the discord
 to drop into my personal meeting room.
+
+| Day(s) |    Hours   | Zoom Link
+---------|------------|-----------
+|TBD|  TBD | TBD
+
+**Noah's Office Hours**
+
+My office hours are open for discussion on design strategies or onboarding
+project related questions. If meeting for questions on the Onboarding Project,
+both members being present is ideal, but not required. I will also be available
+for shorter questions during our weekly meetings for shorter questions, and
+over email if an immediate answer is not needed. For more productive office
+hours, email me beforehand with your question or problem so I can better help
+you.
 
 | Day(s) |    Hours   | Zoom Link
 ---------|------------|-----------
@@ -119,13 +134,13 @@ enrollment:
 
 1 credit: 4 hours per week
 
-2 credits[^note1]: 8 hours per week
+2 credits[^1]: 8 hours per week
 
-3 credits[^note2]: 12 hours per week
+3 credits[^2]: 12 hours per week
 
-[^note1]: VIP Advisor pre-approval required.
+[^1]: VIP Advisor pre-approval required.
 
-[^note2]: VIP Management pre-approval required.
+[^2]: VIP Management pre-approval required.
 
 Graduate students enroll for 1.5 credits, commensurate with 50 hours over the
 semester.
