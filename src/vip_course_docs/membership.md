@@ -53,4 +53,15 @@ the project and develop valuable technical skills.
 
 ### VIP
 
-  * 
+  * Ghala Buarish
+  * Calvin Clizer
+  * Hongtai Du
+  * Louai Hammad
+  * Ibrahim Hashim
+  * Simon Hu
+  * Darren Kuo
+  * Noah Mays-Smith
+  * Leo Wang
+  * Jarvis Yang
+  * Srijan Yendluri
+  * Lucy Zheng
