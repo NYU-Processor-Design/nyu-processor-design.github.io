@@ -17,9 +17,9 @@ VIP students. That said, my office hours aren't busy 90% of the time so don't
 hesitate to drop in if you have a question. Email or ping me in the discord
 to drop into my personal meeting room.
 
-| Day(s) |    Hours   | Zoom Link
----------|------------|-----------
-|TBD|  TBD | TBD
+|   Day(s)  |    Hours   | Zoom Link
+------------|------------|-----------
+| Wednesday |    1-3pm   |   [Zoom](https://nyu.zoom.us/j/96477119940)
 
 **Noah's Office Hours**
 
@@ -33,7 +33,7 @@ you.
 
 | Day(s) |    Hours   | Zoom Link
 ---------|------------|-----------
-|TBD|  TBD | TBD
+| By Appointment|  By Appointment | Through Email  
 
 ## Course Prerequisites
 
