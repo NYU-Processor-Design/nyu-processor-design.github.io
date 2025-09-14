@@ -53,6 +53,7 @@ the project and develop valuable technical skills.
 
 ### VIP
 
+  * Joe Aronov
   * Ghala Buarish
   * Calvin Clizer
   * Hongtai Du
