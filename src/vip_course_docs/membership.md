@@ -60,6 +60,7 @@ the project and develop valuable technical skills.
   * Louai Hammad
   * Ibrahim Hashim
   * Simon Hu
+  * Aaquil Kasham
   * Darren Kuo
   * Noah Mays-Smith
   * Leo Wang
