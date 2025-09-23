@@ -10,12 +10,12 @@
  * [Ibrahim Hashim](irh8156.md)
   
  * [Joe Aronov](ja4541.md)
+
+ * [Leo Wang](tw2576.md)
   
  * [Lucy Zheng](lz3007.md)
   
  * [Noah Mays-Smith](nm4207.md)
-  
- * [Leo Wang](tw2576.md)
   
  * [Simon Hu](yh4970)
   
