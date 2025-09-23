@@ -7,8 +7,7 @@ module pc_tb;
     reg clk;
     reg rst_n;
     reg [1:0] MUX_output;
-    reg [15:0] pc_plus1;
-    reg [15:0] pc_plus1_imm;
+    reg [15:0] imm;
     reg [15:0] alu_out;
 
     // Output from the DUT
@@ -19,8 +18,7 @@ module pc_tb;
         .clk(clk),
         .rst_n(rst_n),
         .MUX_output(MUX_output),
-        .pc_plus1(pc_plus1),
-        .pc_plus1_imm(pc_plus1_imm),
+        .imm(imm),
         .alu_out(alu_out),
         .nxt_instr(nxt_instr)
     );
@@ -35,8 +33,7 @@ module pc_tb;
         clk = 0;
         rst_n = 1;
         MUX_output = 2'b00;
-        pc_plus1 = 16'h0000;
-        pc_plus1_imm = 16'h0000;
+        imm = 16'h0000;
         alu_out = 16'h0000;
         #10; // Wait for a moment
 
@@ -57,7 +54,6 @@ module pc_tb;
         // 3. Test Case: Sequential Increment (MUX_output = 00)
         $display("\n T=%0t: [TEST] Testing sequential increment (MUX_output = 2'b00).", $time);
         MUX_output = 2'b00;
-        pc_plus1 = 16'h0001;
         @(posedge clk);
         #1;
         if (nxt_instr === 16'h0001) begin
@@ -66,7 +62,6 @@ module pc_tb;
             $display("T=%0t: [FAIL] PC is 0x%h, expected 0x0001.", $time, nxt_instr);
         end
         
-        pc_plus1 = 16'h0002;
         @(posedge clk);
         #1;
         if (nxt_instr === 16'h0002) begin
@@ -79,16 +74,15 @@ module pc_tb;
         // 4. Test Case: Branch with Immediate (MUX_output = 01)
         $display("\n T=%0t: [TEST] Testing branch with immediate (MUX_output = 2'b01).", $time);
         MUX_output = 2'b01;
-        pc_plus1_imm = 16'h1234;
+        imm = 16'h000E; // Adds 14
         // Set other inputs to different values to ensure they aren't selected
-        pc_plus1 = 16'hFFFF; 
         alu_out = 16'hEEEE;
         @(posedge clk);
         #1;
-        if (nxt_instr === 16'h1234) begin
+        if (nxt_instr === 16'h0011) begin
             $display("T=%0t: [PASS] PC branched to immediate address 0x%h.", $time, nxt_instr);
         end else begin
-            $display("T=%0t: [FAIL] PC is 0x%h, expected 0x1234.", $time, nxt_instr);
+            $display("T=%0t: [FAIL] PC is 0x%h, expected 0x0011.", $time, nxt_instr);
         end
 
 
@@ -96,9 +90,8 @@ module pc_tb;
         $display("\n T=%0t: [TEST] Testing jump via ALU output (MUX_output = 2'b10).", $time);
         MUX_output = 2'b10;
         alu_out = 16'hABCD;
-        // Set other inputs to different values
-        pc_plus1 = 16'hFFFF;
-        pc_plus1_imm = 16'hEEEE;
+        // Set other input to different values
+        imm = 16'hEEEE;
         @(posedge clk);
         #1;
         if (nxt_instr === 16'hABCD) begin
@@ -112,7 +105,6 @@ module pc_tb;
         
         // a. Increment
         MUX_output = 2'b00;
-        pc_plus1 = 16'hABCE;
         @(posedge clk);
         #1;
         $display("T=%0t: [INFO] Current PC: 0x%h (After increment)", $time, nxt_instr);
@@ -126,12 +118,12 @@ module pc_tb;
         
         // c. Branch
         MUX_output = 2'b01;
-        pc_plus1_imm = 16'hCAFE;
+        imm = 16'h010F;
         @(posedge clk);
         #1;
         $display("T=%0t: [INFO] Current PC: 0x%h (After branch)", $time, nxt_instr);
-        if (nxt_instr !== 16'hCAFE) begin
-            $display("T=%0t: [FAIL] Back-to-back sequence failed. PC is 0x%h, expected 0xCAFE.", $time, nxt_instr);
+        if (nxt_instr !== 16'hBFFF) begin
+            $display("T=%0t: [FAIL] Back-to-back sequence failed. PC is 0x%h, expected 0xBFFF.", $time, nxt_instr);
         end else begin
              $display("T=%0t: [PASS] Back-to-back sequence successful.", $time);
         end
@@ -141,15 +133,14 @@ module pc_tb;
         // of incrementing the PC
         $display("\n T=%0t: [TEST] Testing undefined MUX select (2'b11).", $time);
         MUX_output = 2'b11;
-        pc_plus1 = 16'h0009; // Change inputs to see if they are ignored
-        pc_plus1_imm = 16'h000A;
-        alu_out = 16'h000B;
+        imm = 16'h148A; // Random Inputs to ensure they're ignored
+        alu_out = 16'h000B;// Random Inputs to ensure they're ignored
         @(posedge clk);
         #1;
-        if (nxt_instr === 16'h0009) begin
-             $display("T=%0t: [PASS] PC correctly incremented to PC+1 at 16'h0009.", $time, nxt_instr);
+        if (nxt_instr === 16'hC000) begin
+             $display("T=%0t: [PASS] PC correctly incremented to PC+1 at 0x%h.", $time, nxt_instr);
         end else begin
-             $display("T=%0t: [FAIL] PC changed to 16'h000A or 16'h000B, expected it to go to 16'h0009.", $time, nxt_instr);
+             $display("T=%0t: [FAIL] PC changed to 0x%h, expected it to go to 16'hC000.", $time, nxt_instr);
         end
 
         // 8. Test Case: Asynchronous Reset again
