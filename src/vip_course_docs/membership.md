@@ -65,5 +65,4 @@ the project and develop valuable technical skills.
   * Noah Mays-Smith
   * Leo Wang
   * Jarvis Yang
-  * Srijan Yendluri
   * Lucy Zheng
