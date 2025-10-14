@@ -4,26 +4,41 @@
 
 ## Contact Information
 
-|    Position    |      Name      |         Email        |   Office Hours
------------------|----------------|----------------------|-----------------
-| Course Advisor |  Ratan Dey     |      ratan@nyu.edu   | By Appointment
-|    Team Lead   | Uma Nachiappan |     un2021@nyu.edu   |   See Table
+|      Position      |      Name       |       Email        |   Office Hours
+---------------------|-----------------|--------------------|-----------------
+|   Course Advisor   |   Ratan Dey     |    ratan@nyu.edu   | By Appointment
+|     Team Lead      |   Darren Kuo    |   dk4461@nyu.edu   |   See Below
+|  Onboarding Lead   | Noah Mays-Smith |   nm4207@nyu.edu   |   See Below
 
-**Uma's Office Hours**
+**Darren's Office Hours**
 
 My office hours are shared with other classes, who will take priority over
 VIP students. That said, my office hours aren't busy 90% of the time so don't
 hesitate to drop in if you have a question. Email or ping me in the discord
 to drop into my personal meeting room.
 
+|   Day(s)  |    Hours   | Zoom Link
+------------|------------|-----------
+| Wednesday |    1-3pm   |   [Zoom](https://nyu.zoom.us/j/96477119940)
+
+**Noah's Office Hours**
+
+My office hours are open for discussion on design strategies or onboarding
+project related questions. If meeting for questions on the Onboarding Project,
+both members being present is ideal, but not required. I will also be available
+for shorter questions during our weekly meetings for shorter questions, and
+over email if an immediate answer is not needed. For more productive office
+hours, email me beforehand with your question or problem so I can better help
+you.
+
 | Day(s) |    Hours   | Zoom Link
 ---------|------------|-----------
-|Mon, Wed|  11am-12pm | [Zoom](https://nyu.zoom.us/j/92659371396)
+| By Appointment|  By Appointment | Through Email  
 
 ## Course Prerequisites
 
 Students must be pursuing their undergraduate or graduate degree at NYU in order
-to enroll in a VIP course. Enrollment is based on a rolling application process
+to enroll in a VIP course. Enrollment is based on an application process
 through the course website. Decisions on acceptance to the course will be made
 by the faculty advisors. New student decisions are made by the beginning of each
 semester. Students may apply to various VIP course options (i.e., VIP teams),
@@ -92,7 +107,7 @@ The team seeks to attain the following outcomes for participants:
 
 ## Project Structure
 
-This VIP team does not have designated sub-teams. A single team-wide meeting
+This VIP team does not currently have designated sub-teams. A single team-wide meeting
 will be held weekly at a time determined by participant schedules.
 
 ## Course Topics
@@ -119,13 +134,13 @@ enrollment:
 
 1 credit: 4 hours per week
 
-2 credits[^note1]: 8 hours per week
+2 credits[^1]: 8 hours per week
 
-3 credits[^note2]: 12 hours per week
+3 credits[^2]: 12 hours per week
 
-[^note1]: VIP Advisor pre-approval required.
+[^1]: VIP Advisor pre-approval required.
 
-[^note2]: VIP Management pre-approval required.
+[^2]: VIP Management pre-approval required.
 
 Graduate students enroll for 1.5 credits, commensurate with 50 hours over the
 semester.
@@ -188,11 +203,52 @@ individual contributions on a weekly basis through the VIP Notebook.
 
 |               Category                 | Breakdown |
 -----------------------------------------|-----------|
-|      Documentation (VIP Notebook)      |    35%    |
-|    Responsibilities & Contributions    |    35%    |
+|      Documentation (VIP Notebook)      |    40%    |
+|    Responsibilities & Contributions    |    30%    |
 |              Attendance                |    10%    |
 | End of Semester Presentation or Report |    20%    |
 |               **Total**                |***100%*** |
 
 **Zero-credit enrollment:** Students enrolled in a zero-credit VIP course will
 receive a Pass (P) for 80% or higher.
+
+### Documentation
+
+VIP Notebook entries are expected to be updated weekly through PRs by Sunday night.
+Notebook Entries will be graded out of 2 points:
+
+| Points |                               Criteria                             |
+|--------|--------------------------------------------------------------------|
+|   2    |    Entry contains some VIP related Work with basic explanations    |
+|   1    | Entry does not contain VIP related Work, or is lacking explanation |
+|   0    |                           No Entry Present                         |
+
+Students are granted up to two unexcused late PRs before penalties on your
+*Documentation* grade. For each week a submission is late, there will be a 1 point
+deduction to that weeks entry.
+
+### Responsibilities & Contributions
+
+There will be bi-weekly presentations from the students about the work that they
+have been working on. Presentations can be done in groups/sub-teams if the VIP
+work was done in groups/sub-teams.
+
+Presentations will be graded on a completion basis, 1 point for presenting,
+0 points for no presentation. There will be no unexcused late submission for
+presentations.
+
+### Attendance
+
+Attendance is expected at weekly meetings. Meeting time is to be determined
+based on VIP Members' availability. If the meeting time does not work for a
+student, alternate options will be discussed.
+
+Students are allowed 2 unexcused absences. If a student is to miss a meeting
+they are responsible for anything that occurred in the missed meeting. Students
+are to notify the VIP Advisor/Leadership team if they were to miss a meeting. 
+
+### End of Semester Presentation or Report
+
+Typically students will present at the end of the semester on the work that 
+they have completed during the semester. Further details regarding the presentation
+will be given towards the end of the semester.
