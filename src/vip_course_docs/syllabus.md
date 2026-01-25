@@ -19,7 +19,7 @@ to drop into my personal meeting room.
 
 |   Day(s)  |    Hours   | Zoom Link
 ------------|------------|-----------
-| Wednesday |    1-3pm   |   [Zoom](https://nyu.zoom.us/j/96477119940)
+| TBA |    TBA  |   [Zoom](https://nyu.zoom.us/j/96477119940)
 
 **Noah's Office Hours**
 
@@ -203,10 +203,9 @@ individual contributions on a weekly basis through the VIP Notebook.
 
 |               Category                 | Breakdown |
 -----------------------------------------|-----------|
-|      Documentation (VIP Notebook)      |    40%    |
-|    Responsibilities & Contributions    |    30%    |
-|              Attendance                |    10%    |
-| End of Semester Presentation or Report |    20%    |
+|      Documentation (VIP Notebook)      |    50%    |
+|              Attendance                |    25%    |
+| End of Semester Presentation or Report |    25%    |
 |               **Total**                |***100%*** |
 
 **Zero-credit enrollment:** Students enrolled in a zero-credit VIP course will
@@ -227,25 +226,16 @@ Students are granted up to two unexcused late PRs before penalties on your
 *Documentation* grade. For each week a submission is late, there will be a 1 point
 deduction to that weeks entry.
 
-### Responsibilities & Contributions
-
-There will be bi-weekly presentations from the students about the work that they
-have been working on. Presentations can be done in groups/sub-teams if the VIP
-work was done in groups/sub-teams.
-
-Presentations will be graded on a completion basis, 1 point for presenting,
-0 points for no presentation. There will be no unexcused late submission for
-presentations.
 
 ### Attendance
 
-Attendance is expected at weekly meetings. Meeting time is to be determined
+Attendance is expected at all meetings. Meeting time is to be determined
 based on VIP Members' availability. If the meeting time does not work for a
 student, alternate options will be discussed.
 
 Students are allowed 2 unexcused absences. If a student is to miss a meeting
 they are responsible for anything that occurred in the missed meeting. Students
-are to notify the VIP Advisor/Leadership team if they were to miss a meeting. 
+are to notify the VIP Advisor/Leadership team if they are to miss a meeting. 
 
 ### End of Semester Presentation or Report
 
