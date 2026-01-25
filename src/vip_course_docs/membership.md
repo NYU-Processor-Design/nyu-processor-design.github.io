@@ -12,7 +12,7 @@ team requirements.
 
 **Team Lead:** Darren Kuo
 
-**Onboarding Manager:** Noah Mays-Smith
+**Team Co-lead:** Noah Mays-Smith
 
 ## Czars:
 
@@ -54,15 +54,22 @@ the project and develop valuable technical skills.
 ### VIP
 
   * Joe Aronov
+  * Mohamed Benaich
   * Ghala Buarish
+  * Yvette Cao
+  * Tim Chukin
   * Calvin Clizer
-  * Hongtai Du
+  * Asfaq Fahim
+  * Srijan Gupta
   * Louai Hammad
   * Ibrahim Hashim
   * Simon Hu
-  * Aaquil Kasham
+  * Vishwas Karale
   * Darren Kuo
+  * Tony Korycki
+  * Tyler Lee
+  * Bao Ngyuen
+  * Danish Puri
   * Noah Mays-Smith
   * Leo Wang
-  * Jarvis Yang
-  * Lucy Zheng
+  * Gloria Xin
