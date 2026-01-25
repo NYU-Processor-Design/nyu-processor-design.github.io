@@ -29,11 +29,13 @@
   - [Lab 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
 # Design Notebooks
 - [Fall 2025](design_notebooks/2025fall/00_toc.md)
+  - [Calvin Clizer](design_notebookx/2025/fall/cac10141.md)
   - [Darren Kuo](design_notebooks/2025fall/dk4461.md)
   - [Ghala Buarish](design_notebooks/2025fall/gb2789.md)
   - [Hongtai Du](design_notebooks/2025fall/hd2609.md)
   - [Ibrahim Hashim](design_notebooks/2025fall/irh8156.md)
   - [Joe Aronov](design_notebooks/2025fall/ja4541.md)
+  - [Louai Hammad](design_notebooks/2025fall/lbh6976.md)
   - [Leo Wang](design_notebooks/2025fall/tw2576.md)
   - [Lucy Zheng](design_notebooks/2025fall/lz3007.md)
   - [Noah Mays-Smith](design_notebooks/2025fall/nm4207.md)
