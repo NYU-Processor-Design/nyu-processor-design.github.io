@@ -1,7 +1,6 @@
 [book]
 authors = ["NYU ProcDesign Team"]
 language = "en"
-multilingual = false
 src = "src"
 title = "NYU Processor Design Documentation"
 
