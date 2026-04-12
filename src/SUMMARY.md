@@ -29,7 +29,6 @@
   - [Lab 8+: Advanced Processor Design](getting_started/onboarding/09_cpu2.md)
 # Design Notebooks
 - [Spring 2026](design_notebooks/2026spring/00_toc.md)
-  - [Asfaq Fahim](design_notebooks/2026spring/af4306.md)
   - [Bao Nguyen](design_notebooks/2026spring/bln7876.md)
   - [Calvin Clizer](design_notebooks/2026spring/cac10141.md)
   - [Danish Puri](design_notebooks/2026spring/dp3858.md)
