@@ -148,4 +148,4 @@
     - [Siddharth Kandpal](archive/design_notebooks/2023spring/sk8944.md)
     - [Sean Doyle](archive/design_notebooks/2023spring/spd7416.md)
     - [Uma Nachiappan](archive/design_notebooks/2023spring/un2021.md)
-  - [Papers](archive/Papers.md)
+- [Papers](archive/Papers.md)
