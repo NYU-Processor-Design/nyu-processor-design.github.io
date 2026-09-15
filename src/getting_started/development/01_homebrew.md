@@ -121,7 +121,7 @@ you use to unlock your computer
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/test/.zprofile
   ```
   ```console
-  eval "$(/opt/homebrew/bin/brew/ shellenv)"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
 
 - Run the following command to confirm your installation

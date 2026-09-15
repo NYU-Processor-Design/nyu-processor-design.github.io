@@ -1,8 +1,6 @@
 # Spring 2026 Design Notebooks
 
 ---
- * [Asfaq Fahim](af4306.md)
-
  * [Bao Nguyen](bln7876.md)
 
  * [Calvin Clizer](cac10141.md)
