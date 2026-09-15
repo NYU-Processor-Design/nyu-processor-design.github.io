@@ -84,11 +84,23 @@ to pull from:
 
 Now create the pull request.
 
-For the following dialogue, it's fine the leave the title as whatever is
-generated for the commit. In the comments field, include any information
-that might be pertinent but isn't included in the commit itself.
+For the following dialogue, you may sometimes leave the title as whatever is
+generated for the commit, or create a clear and concise one. In the comments field, include any information
+that might be pertinent but isn't included in the commit itself or the title.
 
 <img src="/images/git/gh_pr04.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+For design note books, please title your PR:
+
+```text
+docs(dn): First Last mm/dd/yy
+```
+
+Example:
+
+```text
+docs(dn): Jane Smith 09/15/26
+```
 
 ## Discarding the Branch
 

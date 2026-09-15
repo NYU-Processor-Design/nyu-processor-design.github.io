@@ -1,21 +1,11 @@
 # Onboarding Labs
 
----
+The onboarding labs are for new members and introduce the tools and digital design skills used by the Processor Design VIP. Complete the labs in order unless instructed otherwise.
 
-1. [Lab Guidance](01_guidance.md)
+Each lab has a deadline for its design notebook submission. If you finish a lab, you may continue with the following ones early, however you will still always need to submit design notebook entries every week with work done. Let the leads know if you're out of work to do!
 
-2. [Lab 1: CMake and Toolchain](02_cmake.md)
+## Current Labs
 
-3. [Lab 2: System Verilog](03_sv.md)
+- [Lab 1: Git, GitHub, Design Notebook, and First RTL](01_lab1.md)
 
-4. [Lab 3: Verification](04_verification.md)
-
-5. [Lab 4: Advanced Verification](05_verification2.md)
-
-6. [Lab 5: Advanced System Verilog](06_advanced_sv.md)
-
-7. [Lab 6: Packaging and Dependency Management](07_dependencies.md)
-
-8. [Lab 7: Becoming a Processor Designer](08_paths.md)
-
-9. [Lab 8: Advanced Processor Design](09_cpu2.md)
+Additional labs will be added soon.
