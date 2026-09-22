@@ -7,5 +7,6 @@ Each lab has a deadline for its design notebook submission. If you finish a lab,
 ## Current Labs
 
 - [Lab 1: Git, GitHub, Design Notebook, and First RTL](01_lab1.md)
+- [Lab 2: SystemVerilog RTL Fundamentals](02_lab2.md)
 
 Additional labs will be added soon.
