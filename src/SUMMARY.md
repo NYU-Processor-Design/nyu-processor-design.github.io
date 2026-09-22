@@ -28,7 +28,7 @@
 
 - [Fall 2026](design_notebooks/2026fall/00_toc.md)
   - [Yvette Cao](design_notebooks/2026fall/hc3977.md)
-  - [Vincent Capone]()
+  - [Vincent Capone](design_notebooks/2026fall/vgc8903.md)
   - [Jack Chen](design_notebooks/2026fall/jc13437.md)
   - [Paul Gutierrez]()
   - [Ibrahim Hashim]()
@@ -37,12 +37,12 @@
   - [Tyler Lee]()
   - [Xingyu Li](design_notebooks/2026fall/xal215.md)
   - [Darren Lu](design_notebooks/2026fall/jl16433.md)
-  - [Bao Nguyen]()
+  - [Bao Nguyen](design_notebooks/2026fall/bln7876.md)
   - [Saishruti Sairam Vedha](design_notebooks/2026fall/ss20513.md)
   - [Ray Wang](design_notebooks/2026fall/zw4892.md)
   - [Stefan Weigl-Bosker](design_notebooks/2026fall/scw8731.md)
-  - [Randy Wu]()
-  - [Gloria Xin]()
+  - [Randy Wu](design_notebooks/2026fall/rw3631.md)
+  - [Gloria Xin](design_notebooks/2026fall/gx2081.md)
   - [Hans Yang](design_notebooks/2026fall/hy2860.md)
 
 # Archive
