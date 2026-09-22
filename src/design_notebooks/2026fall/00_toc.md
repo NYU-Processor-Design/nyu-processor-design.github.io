@@ -5,7 +5,7 @@ Design notebooks for members of the Processor Design VIP during the Fall 2026 se
 Members document their weekly work, progress, challenges, and relevant contributions here.
 
 - [Yvette Cao](hc3977.md)
-- Vincent Capone
+- [Vincent Capone](vgc8903.md)
 - [Jack Chen](jc13437.md)
 - Paul Gutierrez
 - Ibrahim Hashim
@@ -14,10 +14,10 @@ Members document their weekly work, progress, challenges, and relevant contribut
 - Tyler Lee
 - [Xingyu Li](xal215.md)
 - [Darren Lu](jl16433.md)
-- Bao Nguyen
+- [Bao Nguyen](bln7876.md)
 - [Saishruti Sairam Vedha](ss20513.md)
 - [Ray Wang](zw4892.md)
 - [Stefan Weigl-Bosker](scw8731.md)
-- Randy Wu
-- Gloria Xin
+- [Randy Wu](rw3631.md)
+- [Gloria Xin](gx2081.md)
 - [Hans Yang](hy2860.md)
