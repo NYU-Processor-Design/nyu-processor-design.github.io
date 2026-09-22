@@ -2,15 +2,16 @@
 
 [Introduction](Intro.md)
 
-# VIP Course Documents
+## VIP Course Documents
 
 - [Syllabus](vip_course_docs/syllabus.md)
 - [Project Membership](vip_course_docs/membership.md)
 
-# Getting Started
+## Getting Started
 
 - [Onboarding Labs](getting_started/onboarding/00_toc.md)
   - [Lab 1: Development Environment and First RTL](getting_started/onboarding/01_lab1.md)  
+  - [Lab 2: SystemVerilog RTL Fundamentals](getting_started/onboarding/02_lab2.md)
 - [Design Notebooks and Git](getting_started/notebooks/00_toc.md)
   - [Getting Started With Git](getting_started/notebooks/01_git.md)
   - [Working With Your Repo](getting_started/notebooks/02_repo_nav.md)
@@ -23,12 +24,28 @@
   - [Windows: WSL Installation](getting_started/development/03_wsl_vscode.md)
   - [VS Code Extension Recommendations](getting_started/development/04_vscode_ext.md)
 
-# Design Notebooks
+## Design Notebooks
 
 - [Fall 2026](design_notebooks/2026fall/00_toc.md)
+  - [Yvette Cao]()
+  - [Vincent Capone]()
+  - [Jack Chen]()
+  - [Paul Gutierrez]()
+  - [Ibrahim Hashim]()
+  - [Yuhan Jiang]()
+  - [Tony Korycki](design_notebooks/2026fall/ajk8795.md)
+  - [Tyler Lee]()
+  - [Xingyu Li](design_notebooks/2026fall/xal215.md)
+  - [Darren Lu](design_notebooks/2026fall/jl16433.md)
+  - [Bao Nguyen]()
+  - [Saishruti Sairam Vedha]()
+  - [Ray Wang](design_notebooks/2026fall/zw4892.md)
+  - [Stefan Weigl-Bosker](design_notebooks/2026fall/scw8731.md)
+  - [Randy Wu]()
+  - [Gloria Xin]()
   - [Hans Yang](design_notebooks/2026fall/hy2860.md)
 
-# Archive
+## Archive
 
 - [Previous Onboarding Labs](archive/onboarding/00_toc.md)
   - [Lab Guidance](archive/onboarding/01_guidance.md)
