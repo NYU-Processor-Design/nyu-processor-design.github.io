@@ -24,7 +24,7 @@ Project leadership facilitate and administrate the academic aspect of the team, 
 - Darren Lu
 - Bao Nguyen
 - Saishruti Sairam Vedha
-- Roy Wang
+- Ray Wang
 - Stefan Weigl-Bosker
 - Randy Wu
 - Gloria Xin
