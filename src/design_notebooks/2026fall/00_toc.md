@@ -6,7 +6,7 @@ Members document their weekly work, progress, challenges, and relevant contribut
 
 - [Yvette Cao](hc3977.md)
 - Vincent Capone
-- Jack Chen
+- [Jack Chen](jc13437.md)
 - Paul Gutierrez
 - Ibrahim Hashim
 - [Yuhan Jiang](yj3494.md)

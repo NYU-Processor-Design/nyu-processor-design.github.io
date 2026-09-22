@@ -29,7 +29,7 @@
 - [Fall 2026](design_notebooks/2026fall/00_toc.md)
   - [Yvette Cao](design_notebooks/2026fall/hc3977.md)
   - [Vincent Capone]()
-  - [Jack Chen]()
+  - [Jack Chen](design_notebooks/2026fall/jc13437.md)
   - [Paul Gutierrez]()
   - [Ibrahim Hashim]()
   - [Yuhan Jiang](design_notebooks/2026fall/yj3494.md)
