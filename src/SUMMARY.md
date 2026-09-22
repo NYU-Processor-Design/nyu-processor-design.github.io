@@ -10,7 +10,7 @@
 # Getting Started
 
 - [Onboarding Labs](getting_started/onboarding/00_toc.md)
-  - [Lab 1: Development Environment and First RTL](getting_started/onboarding/01_lab1.md)  
+  - [Lab 1: Development Environment, Git, GitHub, and Design Notebook](getting_started/onboarding/01_lab1.md)  
   - [Lab 2: SystemVerilog RTL Fundamentals](getting_started/onboarding/02_lab2.md)
 - [Design Notebooks and Git](getting_started/notebooks/00_toc.md)
   - [Getting Started With Git](getting_started/notebooks/01_git.md)
