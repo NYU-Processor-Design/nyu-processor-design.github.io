@@ -30,7 +30,7 @@
   - [Yvette Cao](design_notebooks/2026fall/hc3977.md)
   - [Vincent Capone]()
   - [Jack Chen](design_notebooks/2026fall/jc13437.md)
-  - [Paul Gutierrez]()
+  - [Paul Gutierrez](design_notebooks/2026fall/psg7350.md)
   - [Ibrahim Hashim]()
   - [Yuhan Jiang](design_notebooks/2026fall/yj3494.md)
   - [Tony Korycki](design_notebooks/2026fall/ajk8795.md)
