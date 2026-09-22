@@ -15,7 +15,7 @@ Members document their weekly work, progress, challenges, and relevant contribut
 - [Xingyu Li](xal215.md)
 - [Darren Lu](jl16433.md)
 - Bao Nguyen
-- [Saishruti Sairam Vedha](scw8731.md)
+- [Saishruti Sairam Vedha](ss20513.md)
 - [Ray Wang](zw4892.md)
 - [Stefan Weigl-Bosker](scw8731.md)
 - Randy Wu
