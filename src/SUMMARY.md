@@ -38,7 +38,7 @@
   - [Xingyu Li](design_notebooks/2026fall/xal215.md)
   - [Darren Lu](design_notebooks/2026fall/jl16433.md)
   - [Bao Nguyen]()
-  - [Saishruti Sairam Vedha](design_notebooks/2026fall/scw8731.md)
+  - [Saishruti Sairam Vedha](design_notebooks/2026fall/ss20513.md)
   - [Ray Wang](design_notebooks/2026fall/zw4892.md)
   - [Stefan Weigl-Bosker](design_notebooks/2026fall/scw8731.md)
   - [Randy Wu]()
