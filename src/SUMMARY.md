@@ -31,7 +31,7 @@
   - [Vincent Capone](design_notebooks/2026fall/vgc8903.md)
   - [Jack Chen](design_notebooks/2026fall/jc13437.md)
   - [Paul Gutierrez](design_notebooks/2026fall/psg7350.md)
-  - [Ibrahim Hashim]()
+  - [Ibrahim Hashim](design_notebooks/2026fall/irh8156.md)
   - [Yuhan Jiang](design_notebooks/2026fall/yj3494.md)
   - [Tony Korycki](design_notebooks/2026fall/ajk8795.md)
   - [Tyler Lee]()
