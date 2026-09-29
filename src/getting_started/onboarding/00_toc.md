@@ -8,5 +8,4 @@ Each lab has a deadline for its design notebook submission. If you finish a lab,
 
 - [Lab 1: Development Environment, Git, GitHub, and Design Notebook](01_lab1.md)
 - [Lab 2: SystemVerilog RTL Fundamentals](02_lab2.md)
-
-Additional labs will be added soon.
+- [Lab 3: SystemVerilog Verification and FIFO Design](03_lab3.md)
