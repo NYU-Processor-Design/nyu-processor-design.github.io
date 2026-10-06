@@ -10,8 +10,9 @@
 # Getting Started
 
 - [Onboarding Labs](getting_started/onboarding/00_toc.md)
-  - [Lab 1: Development Environment and First RTL](getting_started/onboarding/01_lab1.md)  
+  - [Lab 1: Development Environment, Git, GitHub, and Design Notebook](getting_started/onboarding/01_lab1.md)  
   - [Lab 2: SystemVerilog RTL Fundamentals](getting_started/onboarding/02_lab2.md)
+  - [Lab 3: SystemVerilog Verification and FIFO Design](getting_started/onboarding/03_lab3.md)
 - [Design Notebooks and Git](getting_started/notebooks/00_toc.md)
   - [Getting Started With Git](getting_started/notebooks/01_git.md)
   - [Working With Your Repo](getting_started/notebooks/02_repo_nav.md)
@@ -28,21 +29,21 @@
 
 - [Fall 2026](design_notebooks/2026fall/00_toc.md)
   - [Yvette Cao](design_notebooks/2026fall/hc3977.md)
-  - [Vincent Capone]()
+  - [Vincent Capone](design_notebooks/2026fall/vgc8903.md)
   - [Jack Chen](design_notebooks/2026fall/jc13437.md)
-  - [Paul Gutierrez]()
-  - [Ibrahim Hashim]()
+  - [Paul Gutierrez](design_notebooks/2026fall/psg7350.md)
+  - [Ibrahim Hashim](design_notebooks/2026fall/irh8156.md)
   - [Yuhan Jiang](design_notebooks/2026fall/yj3494.md)
   - [Tony Korycki](design_notebooks/2026fall/ajk8795.md)
   - [Tyler Lee]()
   - [Xingyu Li](design_notebooks/2026fall/xal215.md)
   - [Darren Lu](design_notebooks/2026fall/jl16433.md)
-  - [Bao Nguyen]()
+  - [Bao Nguyen](design_notebooks/2026fall/bln7876.md)
   - [Saishruti Sairam Vedha](design_notebooks/2026fall/ss20513.md)
   - [Ray Wang](design_notebooks/2026fall/zw4892.md)
   - [Stefan Weigl-Bosker](design_notebooks/2026fall/scw8731.md)
-  - [Randy Wu]()
-  - [Gloria Xin]()
+  - [Randy Wu](design_notebooks/2026fall/rw3631.md)
+  - [Gloria Xin](design_notebooks/2026fall/gx2081.md)
   - [Hans Yang](design_notebooks/2026fall/hy2860.md)
 
 # Archive
