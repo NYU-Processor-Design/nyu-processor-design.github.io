@@ -45,10 +45,6 @@ The team seeks to attain the following outcomes for participants:
 - An ability to collaborate effectively with team members and integrate diverse, distributed work into a single cohesive solution
 - An ability to independently research and consider possible solutions to a problem space and present concise recommendations for evaluation
 
-## Project Structure
-
-This VIP team does not currently have designated sub-teams. A single team-wide meeting will be held weekly at a time determined by participant schedules.
-
 ## Course Topics
 
 A short list of topics team members will become familiar with:

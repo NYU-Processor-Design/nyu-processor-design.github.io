@@ -27,7 +27,7 @@ development process.
   example, adding a design notebook entry to [our website](https://GitHub.com/NYU-Processor-Design/nyu-processor-design.GitHub.io), or editing a component of the [AMBA](https://GitHub.com/NYU-Processor-Design/nyu-amba) or 
   [core](https://GitHub.com/NYU-Processor-Design/nyu-core). 
 
-- To work efficiently, you want to fork the appropriate repo and make a branch 
+- To work efficiently, you want to fork the appropriate repo and make a branch[^name] 
   on your fork. 
 
 - After making changes, create a pull request to merge your changes to the team’s
