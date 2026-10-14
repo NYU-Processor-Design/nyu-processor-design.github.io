@@ -12,6 +12,7 @@
 - [Onboarding Labs](getting_started/onboarding/00_toc.md)
   - [Lab 1: Development Environment, Git, GitHub, and Design Notebook](getting_started/onboarding/01_lab1.md)  
   - [Lab 2: SystemVerilog RTL Fundamentals](getting_started/onboarding/02_lab2.md)
+  - [Lab 3: SystemVerilog Verification and FIFO Design](getting_started/onboarding/03_lab3.md)
 - [Design Notebooks and Git](getting_started/notebooks/00_toc.md)
   - [Getting Started With Git](getting_started/notebooks/01_git.md)
   - [Working With Your Repo](getting_started/notebooks/02_repo_nav.md)
