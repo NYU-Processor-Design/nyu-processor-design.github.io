@@ -35,7 +35,7 @@
   - [Ibrahim Hashim](design_notebooks/2026fall/irh8156.md)
   - [Yuhan Jiang](design_notebooks/2026fall/yj3494.md)
   - [Tony Korycki](design_notebooks/2026fall/ajk8795.md)
-  - [Tyler Lee]()
+  - [Tyler Lee](design_notebooks/2026fall/tl2966.md)
   - [Xingyu Li](design_notebooks/2026fall/xal215.md)
   - [Darren Lu](design_notebooks/2026fall/jl16433.md)
   - [Bao Nguyen](design_notebooks/2026fall/bln7876.md)
