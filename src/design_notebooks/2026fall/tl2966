@@ -28,4 +28,8 @@ we finished the test bench this week and it got merged and it seems like everyth
 Week 9:
 today we ended up choosing the new units that we will be working with for the design 
 
-
+week 10:
+Last week, I attended a team meeting where we discussed which peripheral modules to include in our RISC-V processor. From this, I chose to work on the TIMER peripheral.
+I then researched the TIMER module's functionality. It must include a 48-bit counter running at 25 MHz so that the processor can time how long something takes and delay processes.
+It also needs a control register that enables the counter to be stopped, started, and reset. Furthermore, I will have to produce C++ code that can interact with the timer via the FPro bus.
+Next, I plan to design the counter and control registers, then use the given testbench to ensure that my TIMER peripheral works as required.
