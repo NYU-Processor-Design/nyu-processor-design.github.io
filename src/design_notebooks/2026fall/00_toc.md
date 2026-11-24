@@ -11,7 +11,7 @@ Members document their weekly work, progress, challenges, and relevant contribut
 - [Ibrahim Hashim](irh8156.md)
 - [Yuhan Jiang](yj3494.md)
 - [Tony Korycki](ajk8795.md)
-- Tyler Lee
+- [Tyler Lee](tl2966.md)
 - [Xingyu Li](xal215.md)
 - [Darren Lu](jl16433.md)
 - [Bao Nguyen](bln7876.md)
@@ -21,3 +21,4 @@ Members document their weekly work, progress, challenges, and relevant contribut
 - [Randy Wu](rw3631.md)
 - [Gloria Xin](gx2081.md)
 - [Hans Yang](hy2860.md)
+
